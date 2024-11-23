@@ -1,0 +1,22 @@
+{
+  "vars": [
+    {
+      "var": "email",
+      "label": "Email",
+      "description": "",
+      "initvalue": "",
+      "type": "zaa-text"
+    },
+    {
+      "var": "class",
+      "label": "Class",
+      "description": "",
+      "initvalue": "",
+      "type": "zaa-text"
+    }
+  ],
+  "cfgs": [
+  ],
+  "defaults": {
+  }
+}

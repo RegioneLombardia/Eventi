@@ -1,0 +1,7 @@
+/vendor/
+luya
+composer.lock
+.phpunit*
+.php-cs-fixer.cache
+.php_cs.cache
+.tmp

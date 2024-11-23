@@ -1,0 +1,90 @@
+.slider-gruppo-eventi {
+  .uk-grid {
+    margin-left: -15px;
+
+    >* {
+      padding-left: 15px;
+    }
+  }
+
+  .tit-prox-eventi {
+    font-size: 1.8em;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    span {
+      margin-right: 10px;
+    }
+  }
+
+  .uk-slidenav {
+    color: #FFF;
+  }
+
+  .uk-dotnav>.uk-active>* {
+    background-color: rgba(255, 255, 255, .8);
+    border-color: transparent;
+  }
+
+  .uk-dotnav>*>* {
+    border-color: #FFF;
+  }
+
+  .uk-slider-items {
+    .summary {
+      display: none;
+    }
+
+    div[data-key] {
+      // min-width: 320px;
+      // margin-left: 10px;
+      // flex-grow: 1;
+      padding:0 15px;
+      a {
+        display: block;
+        color: #FFF;
+        padding-top: 56.25%;
+        width: 100%;
+        position: relative;
+
+        li, .uk-transition-toggle {
+          // height: 146px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+
+          .uk-panel {
+            padding: 15px;
+            max-height: 100%;
+
+            .titolo-slider-eventi {
+              line-height: 1.2;
+            }
+
+            .data-gruppo-eventi {
+              font-size: 0.8em;
+              margin-top: 5px;
+            }
+          }
+
+          &:hover,
+          &:focus {
+            .uk-panel {
+              background-color: rgba(0, 0, 0, 0.8);
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}

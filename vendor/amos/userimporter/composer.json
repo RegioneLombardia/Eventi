@@ -1,0 +1,25 @@
+{
+    "name": "amos/userimporter",
+    "description": "Amos User Importer",
+    "keywords": [
+        "amos",
+        "importer",
+        "user"
+    ],
+    "homepage": "",
+    "type": "component",
+    "require": {
+        "php": ">=7.0.0",
+        "open20/amos-admin": "^2.0",
+        "open20/amos-attachments": "^1.0.3",
+        "open20/amos-comuni": "*",
+        "open20/amos-core":"^1.9.60",
+        "phpoffice/phpspreadsheet": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "amos\\userimporter\\": "src"
+        }
+    }
+    
+}

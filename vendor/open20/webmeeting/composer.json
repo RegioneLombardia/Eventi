@@ -1,0 +1,31 @@
+{
+    "name": "open20/webmeeting",
+    "description": "Amos WebMeeting",
+    "keywords": [
+        "amos",
+        "video",
+        "meeting",
+        "conference"
+    ],
+    "type": "component",
+    "require": {
+        "php": ">=7.0.0",
+        "conquer/oauth2": "*",
+        "firebase/php-jwt": "^5.2.0",
+        "hybridauth/hybridauth": "^3.1.1",
+        "phpseclib/phpseclib": "^2.0.29",
+        "yiisoft/yii2-authclient": "^2.1.0",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "open20\\webmeeting\\": "src"
+        }
+    },
+    "fxp-asset": {
+        "installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

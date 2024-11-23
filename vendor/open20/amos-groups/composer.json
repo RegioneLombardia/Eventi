@@ -1,0 +1,24 @@
+{
+    "name": "open20/amos-groups",
+    "description": "Amos Groups",
+    "keywords": ["amos", "yii2", "groups"],
+    "type": "component",
+    "proscription": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "open20/amos-core" : "*",
+        "open20/amos-email-manager" : "*"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "open20\\amos\\groups\\": "src"
+        }
+    }
+}

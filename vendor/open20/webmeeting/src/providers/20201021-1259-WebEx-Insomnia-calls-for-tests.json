@@ -1,0 +1,137 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-10-21T11:01:04.296Z",
+    "__export_source": "insomnia.desktop.app:v2020.4.0",
+    "resources": [{
+            "_id": "req_c6261692817040c9884aca47872e5eff",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603277991610,
+            "created": 1603277863437,
+            "url": "https://webexapis.com/v1/rooms",
+            "name": "Rooms",
+            "description": "https://developer.webex.com/docs/api/v1/rooms/list-rooms",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "YWVjN2JjOTgtY2FlZC00NTM1LWEwMWEtMGI3OWRjNjNjNDViY2IyMjcwZjgtMmQ5_PF84_consumer"
+            },
+            "metaSortKey": -1603277863437,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        }, {
+            "_id": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "parentId": null,
+            "modified": 1603273719029,
+            "created": 1603273719029,
+            "name": "WebEx",
+            "description": "",
+            "scope": null,
+            "_type": "workspace"
+        }, {
+            "_id": "req_f9de62438eb24f6a8d499b2052f9a493",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603276409045,
+            "created": 1603275027967,
+            "url": "https://webexapis.com/v1/meetings/",
+            "name": "Get Meeting Auth",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [{
+                    "name": "meetingSeriesId",
+                    "value": "163 193 1877",
+                    "description": "",
+                    "id": "pair_4c9c9f738b764acf9d109b24fd2f9ed3"
+                }],
+            "headers": [],
+            "authentication": {
+                "type": "bearer",
+                "token": "ZTM2ZWI3MTktMzQ3ZC00OGFhLThmYjUtZjI0ZTJkOGEzZjNiZTE0ZGIxYzgtNjQ4_PF84_consumer"
+            },
+            "metaSortKey": -1603275027967,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        }, {
+            "_id": "req_ab714c72ed76400c964eccad17437db1",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603277696918,
+            "created": 1603273730462,
+            "url": "https://webexapis.com/v1/meetings",
+            "name": "List meetings",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [{
+                        "name": "meetingSeriesId",
+                        "value": "163 193 1877",
+                        "description": "",
+                        "id": "pair_04f01e042f5f4365ba422197442de8f2"
+                    }]
+            },
+            "parameters": [],
+            "headers": [{
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_0a02bce15b5a44aa9c09017376823e17"
+                }],
+            "authentication": {
+                "type": "bearer",
+                "token": "YWVjN2JjOTgtY2FlZC00NTM1LWEwMWEtMGI3OWRjNjNjNDViY2IyMjcwZjgtMmQ5_PF84_consumer"
+            },
+            "metaSortKey": -1603273730462,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        }, {
+            "_id": "env_663d50f3c5c0d50ab8a0717018f9080f0b4a3a93",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603273719305,
+            "created": 1603273719305,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1603273719305,
+            "_type": "environment"
+        }, {
+            "_id": "jar_663d50f3c5c0d50ab8a0717018f9080f0b4a3a93",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603273719307,
+            "created": 1603273719307,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }, {
+            "_id": "spc_c002797c901e4755ad33e096d11401a6",
+            "parentId": "wrk_1ccc7411698b467a894a059e4a5f4f7c",
+            "modified": 1603273719044,
+            "created": 1603273719044,
+            "fileName": "WebEx",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }]
+}

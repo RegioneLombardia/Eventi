@@ -1,0 +1,115 @@
+.banner-evento{
+    position: relative;
+    z-index:1;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-bottom: 90px;
+    padding-top: 100px;
+    @media screen and (max-width:959px){
+        flex-direction: column-reverse;
+    }
+    .col-md-5{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      
+    }
+    .col-md-7{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 30px;
+        color: white;
+        font-size: 26px;
+        height: max-content;
+    }
+    .luogo-evento{
+        font-size: 1.3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #E8C619;
+        letter-spacing: -0.03em;
+        line-height: 1.1em;
+        margin: 0 !important;
+    }
+    .data-evento{
+        margin: 0 !important;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        letter-spacing: -0.03em;
+        line-height: 1.1em;
+
+    }
+    h1{
+        font-size: 5em;
+        text-align: left !important;
+        hyphens: auto;
+        @media screen and (max-width:1215px){
+            font-size: 4.5em;
+        }
+        @media screen and (max-width:1120px){
+            font-size: 4em;
+        }
+        @media screen and (max-width:500px){
+            font-size: 3.5em;
+        }
+        @media screen and (max-width:375px){
+            font-size: 3em;
+        }
+        font-weight: bold;
+        color: #FFF;
+        letter-spacing: -0.05em;
+        overflow-wrap: break-word;
+        margin-bottom: 20px;
+    }
+    .btn{
+        background: transparent;
+        word-break: break-word;
+        color: white;
+        font-size: 18px !important;
+        border-color: @verde-regione;
+        margin-bottom: 0 !important;
+        margin-right: 10px !important;
+        font-weight: normal;
+        text-align: center;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        &:hover{
+            background-color: @verde-regione;
+        }
+    }
+    p{
+        font-size: 26px;
+    }
+}
+.hero-banner-tks .uk-background-cover{
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+
+//page no permission
+.alert-container{
+    z-index:1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:24px;
+    color: white;
+    @media screen and (max-width:425px){
+        text-align: center;
+        flex-direction: column;
+    }
+    >div{
+        margin-right:15px;
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "vars": [
+        {
+            "var": "model_classname",
+            "label": "Classe model",
+            "description": "",
+            "initValue": "",
+            "type": "zaa-text"
+        },
+        {
+            "var": "record_id",
+            "label": "Record id",
+            "description": "",
+            "initValue": "",
+            "type": "zaa-text"
+        },
+        {
+            "var": "attribute",
+            "label": "Attributo",
+            "description": "",
+            "initValue": "",
+            "type": "zaa-text"
+        },
+        {
+            "var": "src",
+            "label": "Url immagine",
+            "description": "",
+            "initValue": "",
+            "type": "zaa-text"
+        },{
+            "var": "title",
+            "label": "Title",
+            "description": "",
+            "initValue": "",
+            "placeholder": "Inserisci Title",
+            "type": "zaa-text"
+        }, {
+            "var": "class",
+            "label": "Class",
+            "description": "",
+            "initValue": "",
+            "placeholder": "",
+            "type": "zaa-text"
+        }
+           
+    ],
+    "cfgs": [
+    ]
+    
+}

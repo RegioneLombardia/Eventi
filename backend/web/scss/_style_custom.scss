@@ -1,0 +1,16 @@
+$color-body: #5c5c5c;
+
+/* THEME COLOR */
+$theme-colors: (
+  "body": $color-body
+  );
+
+#bk-page {
+  background-color: $color-body;
+  min-height: 100vh;
+}
+.dropdown-menu.pull-right {
+  right: 0 !important;
+  left: inherit !important;
+}
+@import "events-wizard";

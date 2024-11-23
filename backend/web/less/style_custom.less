@@ -1,0 +1,822 @@
+@image-background-default: url('/img/bg-login.jpg');
+
+.dashboard-content,
+#bk-page {
+  background-color: #FFF;
+}
+nav[data-dashboard-index]{
+  background-color: #474145;
+
+}
+ .fullsizeDashbosardInternaLayout {
+  nav[data-dashboard-index]{
+    background-color: #fff;
+    .container-custom {
+     
+      padding: 0 15px;
+      margin: auto;
+      width: 100%;
+      @media (min-width:1200px) {
+        max-width: 1170px;
+      }
+    }
+  }
+}
+.container {
+  @media (max-width:767px){
+    width: 100%;
+  }
+}
+#bk-page {
+  min-height: 100vh !important;
+  margin-top: 0 !important;
+  padding-top: 152px;
+  background-color: #FFF;
+  overflow: initial;
+  &.preferenceFullsizeFormLayout {
+    overflow: inherit;
+    @media (max-width:767px) {
+      background-color: #FFF;
+    }
+
+    .page-content {
+      padding: 0;
+      margin-top: 20px;
+    }
+  }
+
+  &.preferenceFullsizeListLayout {
+    .page-content {
+      padding: 20px;
+    }
+  }
+}
+.it-brand-wrapper {
+  padding-left: 0 !important;
+}
+.d-flex {
+  display: flex;
+}
+
+.mr-2 {
+  margin-right: 12px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.icon-lg {
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+// NEWTWORK SCOPE EVENTI 
+.actions {
+  margin-top: auto;
+  justify-content: flex-end;
+  display: flex;
+
+  .btn-edit {
+    color: #FFF;
+    font-size: 2.1em;
+    margin: 1px 0 0 0;
+    padding: 0;
+  }
+
+  .amos-tooltip {
+    margin: 1px;
+  }
+
+  .dash-info-circle {
+    vertical-align: -webkit-baseline-middle;
+
+  }
+
+  .btn.dropdown-toggle {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: 20px;
+    border-color: transparent;
+    background: #ffffff;
+    margin: 5px 10px 5px 0px;
+
+    .am-flag {
+      color: #161616;
+    }
+
+    .counter {
+      position: absolute;
+      color: #000000;
+      background: #FFE300;
+      font-size: 12px;
+      border-radius: 50%;
+      padding: 0px 5px;
+      left: 18px;
+      top: 0px;
+    }
+
+    .caret {
+      display: none;
+    }
+  }
+
+}
+
+.community-network-container {
+  .header-right-community {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .network-infos {
+    background: rgba(0, 0, 0, 0.8);
+
+    .control-community {
+      text-transform: uppercase;
+    }
+
+    .tipo-evento {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50px;
+    }
+
+    .event-location {
+      margin-bottom: 20px;
+    }
+
+    .event-date {
+      margin-bottom: 20px;
+    }
+
+    p.lead {
+      margin: 0px;
+    }
+  }
+
+}
+
+
+//REGOLE TEMPORANEE VIEW EVENTI
+.network-container.event-network-container {
+  // display: none !important;
+
+  ~.page-content-noMargin>.event-view {
+    .nav.nav-tabs {
+
+      >li:nth-child(2),
+      >li:nth-child(3) {
+        display: none !important;
+      }
+    }
+  }
+}
+.event-view .tab-content {
+  padding: 0;
+  margin-bottom: 25px;
+}
+.network-breadcrumb {
+  display: none;
+}
+
+.container-custom {
+  width: 100%;
+}
+#community-members-grid-EVENT_MANAGER-EVENTS_CHECK_IN-EVENT_MANAGER-first-container {
+  overflow: auto;
+}
+
+/* CRUSCOTTO LAVORO CUSTOM STYLE */
+@custom-color: #297a38; //Regione Lombardia linee guida design applicativi RL 25/07/19
+
+/* HEADER BRANDBOOK */
+.container-header {
+  .navbar {
+    height: 58px;
+    min-height: 58px !important;
+    padding-top: 14px;
+  }
+}
+
+.container-header .navbar-nav>li>a {
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+  }
+}
+
+.container-logo {
+  height: 94px;
+  display: flex;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  background-color: #FFF;
+  z-index: 9;
+
+  img {
+    height: 54px;
+    width: 194px !important;
+  }
+
+  .img-responsive {
+    max-height: inherit;
+    padding: 0;
+
+    img {
+      height: 54px;
+    }
+  }
+}
+
+.container-logo .title-text, .title-text{
+  //Regione Lombardia linee guida design applicativi RL 25/07/19
+  font-size: 18px;
+  margin-left: 24px;
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #3d4955;
+  font-weight: 600;
+}
+
+.login-page .logo-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+  .login-logo-and-text:nth-child(2),
+  .login-logo-text {
+    padding-left: 0;
+  }
+
+  .login-logo-text {
+    font-size: 16px;
+    margin-left: 24px;
+    padding-right: 25px;
+  }
+}
+
+/* custom widget politiche rl */
+.box-widget.politiche-rl {
+  height: inherit;
+
+  section {
+    height: 83%;
+  }
+
+  .widget-listbox-option {
+    article {
+      display: flex;
+      flex-direction: row;
+
+      .container-icon {
+        width: 15%;
+        margin-right: 10px;
+
+        .icon_widget_graph {
+          font-size: 3em;
+          line-height: 1;
+          position: relative;
+          top: 5px;
+        }
+      }
+    }
+
+    .footer-listbox {
+      position: relative !important;
+      border-bottom: 1px solid @border-color-default;
+
+      p {
+        margin: 0;
+        font-size: 0.8em;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  .read-all a {
+    bottom: 0;
+  }
+}
+
+/* GENERAL CALENDAR WIDGET */
+.general-calendar-widget {
+  .list-items {
+    @media (min-width: 768px) {
+      padding-right: 30px;
+    }
+
+  }
+
+  .fullcalendar {
+    .fc-right {
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    .fc-center {
+      top: -55px !important;
+    }
+
+    &.fc {
+      .fc-toolbar>*>* {
+        float: none;
+      }
+
+      .fc-month-view {
+        .fc-day-grid-event {
+          .fc-content {
+            height: auto;
+            cursor: pointer;
+
+            .fc-title {
+              display: block;
+            }
+          }
+
+        }
+      }
+    }
+
+    .fc-axis {
+      font-size: 11px;
+      line-height: 12px;
+      text-align: left;
+    }
+  }
+
+  .legenda {
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #FFF;
+    margin-top: 50px;
+
+    h3 {
+      margin-top: 0px;
+    }
+
+    span {
+      padding: 0 10px;
+      margin-right: 5px;
+    }
+  }
+}
+
+/* CUSTOM FOOTER TEXT */
+.dashboard-content {
+  //Regione Lombardia linee guida design applicativi RL 25/07/19
+  border-bottom: 0;
+}
+
+.footer-space .footer-text-container {
+  background: #003354;
+
+  .footer-text {
+    padding: 40px 0;
+    background: #003354;
+    text-align: left;
+    font-size: 18px;
+
+    .nome-applicativo {
+      margin-bottom: 24px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        padding: 8px 0;
+
+        a {
+          color: contrast(#003354);
+        }
+      }
+    }
+
+    .copyleft-footer {
+      margin: 40px 0;
+    }
+
+    .power-by-open {
+      text-align: center;
+      font-size: 14px;
+
+      a {
+        color: contrast(#003354);
+      }
+    }
+  }
+}
+
+/* hide firma */
+.post-header-avatar {
+  display: none;
+}
+.login-page .login-block.registration-block .login-body {
+  padding: 35px 25px 0 25px !important;
+}
+.login-page .login-block.registration-block {
+  margin-top: 0 !important;
+}
+/* social auth SPID login view custom */
+.login-page .login-block.social-auth-spid.social-auth-spid-custom {
+  .login-body .action {
+    justify-content: center;
+  }
+}
+
+.login-logo-and-text {
+  img {
+    width: 194px !important;
+  }
+}
+
+#tab-preferencetags {
+  label {
+    margin: 10px 20px 10px 0px;
+    font-size: 16px;
+    display: flex !important;
+
+    .img-tag {
+      width: 50px;
+      height: 50px;
+      padding: 0 5px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    @media (max-width:567px) {
+      display: block;
+    }
+  }
+}
+
+.container-round-img-xs img {
+  vertical-align: baseline;
+}
+
+#tab-preferencetags {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  label {
+
+    position: relative;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    background-color: #EAF1EA;
+    padding: 20px 20px 20px 40px;
+    width: 1000%;
+    margin: 10px 0;
+    color: #000;
+
+    [type=checkbox] {
+      position: absolute;
+      left: -9999px;
+    }
+
+    @media (min-width:567px) {
+      width: 44%;
+      margin: 10px 2%;
+    }
+
+    @media (min-width:992px) {
+      width: 31%;
+      margin: 10px 1%;
+    }
+
+    [type=checkbox]::after {
+      content: '';
+      position: absolute;
+      left: 10005px;
+      top: -4px !important;
+      z-index: 0;
+      border-radius: 4px;
+      height: 22px;
+      width: 22px;
+      margin: 5px;
+      top: 0;
+      border-style: solid;
+      border-width: 2px;
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out;
+      background-color: transparent;
+      border-color: #5c6f82;
+    }
+
+    [type=checkbox]::before {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      left: 6px;
+      top: 10px;
+      content: '';
+    }
+
+    [type=checkbox]:checked::before {
+      content: '';
+      top: 4px;
+      left: 10011px;
+      width: 8px;
+      height: 13px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: transparent #fff #fff transparent;
+      -webkit-transform: rotate(40deg);
+      transform: rotate(40deg);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+      opacity: .8;
+      position: absolute;
+      z-index: 3;
+    }
+
+
+    [type=checkbox]:checked::after {
+      content: '';
+      border-color: @custom-color;
+      background-color: @custom-color;
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out;
+    }
+  }
+
+}
+
+.login-page {
+  #tab-preferencetags {
+    label {
+      width: 100%;
+    }
+  }
+}
+
+
+.wrap-graphic-widget .box-widget .list-items {
+  @media (min-width: 768px) and (max-width:1024px) {
+    margin-left: calc(6% + (80% / 4 - 4px));
+  }
+}
+
+.box-widget .wrap-event .abstract {
+  @media (min-width: 768px) and (max-width:1024px) {
+    padding-left: 35% !important;
+  }
+}
+
+@blu-regione: #183551;
+
+.banner-cookie {
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  margin-bottom: 0;
+  background-color: @blu-regione;
+  color: contrast(@blu-regione);
+  border-radius: 0;
+  border: none;
+  padding: 24px 0;
+  line-height: 1.5;
+
+  .close {
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 0.8;
+  }
+
+  *+p {
+    margin-top: 20px;
+  }
+
+  .close {
+    right: 0;
+    opacity: 0.6;
+  }
+
+  a:not(.btn) {
+    color: contrast(@blu-regione);
+  }
+
+  .btn {
+    border-radius: 4px;
+    text-transform: none;
+    font-weight: normal;
+
+    &:hover {
+      border-radius: 4px;
+    }
+  }
+
+  .btn-primary {
+    background-color: #297A38;
+    border-color: #297A38;
+    color: #FFF;
+
+    &:hover {
+      background-color: darken(#297A38, 4%);
+      color: #FFF;
+    }
+  }
+
+  .button-cookie {
+    margin-top: 20px;
+    text-align: center;
+
+    @media (min-width:768px) {
+      text-align: right;
+    }
+  }
+}
+
+// PROFILO UPDATE 
+.user-profile-update {
+  font-size: 16px;
+
+  .uploadcrop .preview-pane {
+    .preview-container {
+
+      &:empty {
+        display: none;
+      }
+
+      img {
+        object-fit: cover;
+        background: #f6f6f6;
+        border-radius: 100%;
+        height: 250px;
+        width: 250px;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+.file-caption-name:not(.file-caption-disabled) {
+  border: none;
+  width: 100%;
+}
+#bk-btnChangeView {
+  display: flex;
+  align-items: center;
+
+  >.am {
+    margin-right: @margin-min;
+  }
+
+  >p {
+    margin: 1px;
+  }
+}
+
+.attach-gallery-image-view {
+  font-size: 15px;
+  line-height: 1.5;
+
+  hr {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+}
+
+@secondary-color: #5c6f82;
+
+.change-language {
+  background-color: lighten(@secondary-color, 45%);
+  padding: 0px 15px;
+  margin-bottom: 5px;
+
+  a {
+    padding: 10px;
+    display: inline-block;
+
+    &.active,
+    &:hover {
+      border-bottom: 4px solid @secondary-color;
+    }
+  }
+}
+
+.box-language {
+
+  background-color: lighten(@secondary-color, 45%);
+  // padding: 10px;
+  margin-bottom: 5px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    // background: linear-gradient(0deg, rgba(#dde2e7, 45%), 0) 10%, rgba(#dde2e7, 1) 100%);
+    // background: linear-gradient(0deg, rgba(221, 226, 231, 0) 10%, rgba(221, 226, 231, 1) 100%);
+    // background: linear-gradient(0deg, rgba(221, 226, 231, 1) 10%, rgba(221, 226, 231, 0) 100%);
+    height: 25px;
+    width: 100%;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(0deg, rgba(221, 226, 231, 1) 10%, rgba(221, 226, 231, 0) 100%);
+      height: 25px;
+      width: 100%;
+    }
+
+    .text-language {
+      overflow-y: scroll;
+      height: 120px;
+      padding: 15px;
+      width: 100%;
+    }
+  }
+  .badge.badge-outline-secondary {
+    color: @secondary-color;
+    border: 1px solid @secondary-color;
+    background-color: transparent !important;
+    margin-left: 8px;
+}
+// .news-form {
+//   .control-label {
+//     padding:5px 0;
+//   }
+// }
+div[class*="-form"] {
+  .control-label {
+    padding: 5px 0;
+  }
+}
+#tab-preferencetags {
+  label {
+    
+    &:focus-within {
+      box-shadow: inset 0px 0px 0px 2px orange;
+      box-sizing: border-box;
+    }
+  }
+
+}
+
+.select2-container--krajee-bs3 .select2-selection--multiple .select2-search--inline .select2-search__field {
+  width: 100% !important;
+}
+#attach-gallery-eventLogo {
+  .modal-header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+#image-gallery-eventLogo {
+  margin-top: 30px
+}
+.dropdown-menu.pull-right {
+  right: 0 !important;
+  left: inherit !important;
+}

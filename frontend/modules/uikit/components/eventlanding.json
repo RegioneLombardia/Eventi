@@ -1,0 +1,22 @@
+{
+  "vars": [
+    {
+      "var": "event_id",
+      "label": "Id evento",
+      "description": "",
+      "initvalue": "",
+      "type": "zaa-text"
+    },
+    {
+      "var": "class",
+      "label": "Class",
+      "description": "",
+      "initvalue": "",
+      "type": "zaa-text"
+    }
+  ],
+  "cfgs": [
+  ],
+  "defaults": {
+  }
+}

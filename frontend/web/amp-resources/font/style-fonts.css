@@ -1,0 +1,117 @@
+/*----------------Red Hat Display -------------------*/
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./red_hat_display/RedHatDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*----------------Titillium Web -------------------*/
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./Titillium_Web/TitilliumWeb-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}

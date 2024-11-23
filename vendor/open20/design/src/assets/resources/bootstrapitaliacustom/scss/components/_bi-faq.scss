@@ -1,0 +1,62 @@
+/**
+FAQ design item lists
+*/
+.bi-faq {
+    @extend .border-bottom-0;
+
+    button[data-toggle="collapse"]::before {
+        display: none;
+    }
+
+    button {
+        @extend .border-top-0;
+    }
+
+    &.collapse-background-active {
+        button[aria-expanded="true"] {
+            .icon {
+                @include get-color-contrast($primary, "fill");
+            }
+        }
+    }
+    &.collapse-background-hover {
+        button {
+            .icon {
+                fill: $primary;
+            }
+            &:hover {
+                .icon {
+                    @include get-color-contrast($primary, "fill");
+                }
+            }
+        }
+    }
+
+    &:not(.collapse-background-active),
+    &:not(.collapse-background-hover) {
+        .collapse-header {
+            button[aria-expanded="false"] {
+                color: $body-color;
+                &:hover {
+                    color: $link-color;
+                    .icon {
+                        fill: $primary;
+                    }
+                }
+            }
+            button[aria-expanded="true"] {
+                color: $link-color;
+                .icon {
+                    fill: $primary;
+                }
+            }
+        }
+
+        .collapse-body {
+            padding-left: 26px;
+            margin-left: 22px;
+            border-left: 4px solid $primary;
+            background-color: $brandbook-neutral-1-color;
+        }
+    }
+}

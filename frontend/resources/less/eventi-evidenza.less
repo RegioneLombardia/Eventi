@@ -1,0 +1,90 @@
+
+@box-verde: #3B7D2D;
+@box-arancio: #AB6300;
+@box-blu: #2D42AA;
+@box-verde-oliva: #6F7236;
+@box-fucsia: #CF0B6A;
+@box-celeste-scuro:#0C6FB2;
+@box-viola: #6816BE;
+
+
+.eventi-evidenza {
+  .box-event {
+    li {
+      height: auto !important;
+      min-height: 400px;
+
+      .uk-position-cover {
+        background-color: rgba(0, 0, 0, 0.4);
+        .uk-panel {
+          display: flex;
+          flex-direction: column-reverse;
+          @media (min-width:430px) {
+            max-width: 70%;
+          }
+          
+          a {
+            color: #FFF;
+            font-size: 2.3em;
+            line-height: 1.23;
+            font-weight: bold;
+            letter-spacing: -1.2px;
+          }
+          .el-content {
+            color: #FFF;
+            font-weight: bold;
+            margin-bottom: 0;
+            p {
+              margin-bottom: 0;
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+    &.box-event-green {
+      li {
+        .uk-position-cover {
+          background-color: fade(@box-verde, 40%);
+          a,.el-content p {
+            background-color: @box-verde;
+            box-shadow:10px 0 0 @box-verde, -10px 0 0 @box-verde;
+          }
+        }
+      }
+    }
+    &.box-event-blu {
+      li {
+        .uk-position-cover {
+          background-color: fade(@box-blu, 40%);
+          a,.el-content p {
+            background-color: @box-blu;
+            box-shadow:10px 0 0 @box-blu, -10px 0 0 @box-blu;
+          }
+        }
+      }
+    }
+    &.box-event-orange {
+      li {
+        .uk-position-cover {
+          background-color: fade(@box-arancio, 40%);
+          a,.el-content p {
+            background-color: @box-arancio;
+            box-shadow:10px 0 0 @box-arancio, -10px 0 0 @box-arancio;
+          }
+        }
+      }
+    }
+    &.box-event-fucsia {
+      li {
+        .uk-position-cover {
+          background-color: fade(@box-fucsia, 40%);
+          a,.el-content p {
+            background-color: @box-fucsia;
+            box-shadow:10px 0 0 @box-fucsia, -10px 0 0 @box-fucsia;
+          }
+        }
+      }
+    }
+  }
+}

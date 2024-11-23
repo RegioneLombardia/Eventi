@@ -1,0 +1,74 @@
+.it-header-navbar-wrapper {
+    &.theme-light-desk {
+        .navbar {
+            &.has-megamenu {
+                @extend .pl-0;
+            }
+            .custom-navbar-toggler {
+                .icon {
+                    fill: $black;
+                }
+            }
+            .navbar-collapsable {
+                .menu-wrapper,
+                .link-list-wrapper {
+                    @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+                        justify-content: flex-start;
+
+                        ul[class*="cms-menu-container"] {
+                            &:first-of-type {
+                                li.nav-item:first-child {
+                                    a.nav-link {
+                                        @extend .pl-0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .navbar-nav,
+                    .link-list {
+                        li.nav-item {
+                            @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+                                a,
+                                a.list-item span,
+                                a.nav-link span {
+                                    color: $brandbook-secondary-color;
+                                }
+                                .dropdown-toggle svg {
+                                    fill: $brandbook-secondary-color;
+                                }
+                            }
+                            a.nav-link {
+                                @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+                                    color: $brandbook-secondary-color;
+                                }
+                                &.active {
+                                    @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+                                        // border-bottom-color: $brandbook-secondary-color; TODO disabilitato in attesta di implementazione lato plugin
+                                        border-bottom-color: transparent;
+                                    }
+                                }
+                                &.dropdown-toggle {
+                                    svg {
+                                        @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+                                            fill: $brandbook-secondary-color;
+                                        }
+                                    }
+                                }
+                            }
+                            a.nav-link,
+                            a.list-item {
+                                .bullet-navbar:empty {
+                                    height: 8px;
+                                    width: 8px;
+                                    position: relative;
+                                    left: 2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

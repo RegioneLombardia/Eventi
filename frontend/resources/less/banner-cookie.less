@@ -1,0 +1,39 @@
+.banner-cookie {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  margin-bottom: 0;
+  background-color: @blu-regione;
+  color: contrast(@blu-regione);
+  border-radius: 0;
+  border: none;
+  padding: 24px 0;
+  max-height: 100vh;
+  overflow: auto;
+  .close {
+    right: 0;
+    opacity: 0.6;
+    font-size: 40px;
+    line-height: 0.8;
+  }
+  a:not(.btn) {
+    color: contrast(@blu-regione);
+  }
+  .button-cookie {
+    margin-top: 20px;
+    text-align: center;
+    @media (min-width:768px) {
+      text-align: right;
+    }
+    .btn {
+      margin-top: 6px;
+    }
+    .btn-primary {
+
+      &:hover {
+        background-color: darken(@verde-regione, 4%);
+      }
+    }
+  }
+}
