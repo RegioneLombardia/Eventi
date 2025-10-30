@@ -26,6 +26,20 @@ usedBy:
   - Regione Lombardia
   - Aria S.p.A.
 developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: r_lombar
 softwareType: standalone/web
 description:
   it-IT:
