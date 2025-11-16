@@ -1,4 +1,4 @@
-publiccodeYmlVersion: "0.4.0"
+publiccodeYmlVersion: "0"
 name: Servizio per la gestione di eventi e relative anagrafiche utenti
 applicationSuite: Open 2.0
 url: https://github.com/RegioneLombardia/Eventi
@@ -27,19 +27,12 @@ usedBy:
   - Aria S.p.A.
 developmentStatus: stable
 it:
-  conforme:
-    gdpr: true
-    lineeGuidaDesign: true
-    misureMinimeSicurezza: true
-    modelloInteroperabilita: true
   countryExtensionVersion: '0.2'
   piattaforme:
     anpr: false
     cie: true
     pagopa: false
     spid: true
-  riuso:
-    codiceIPA: r_lombar
 softwareType: standalone/web
 description:
   it-IT:
@@ -47,24 +40,24 @@ description:
     shortDescription: Servizio per la gestione di eventi e relative anagrafiche utenti
     longDescription: >-
       Principali funzionalità per le creazione e gestione di eventi
-      informativi, pubblici, privati e di formazione, oltre a eventi nel
+      informativi, pubblici, privati e di formazione, oltre a eventi nel
       metaverso in location pubbliche, private o esposizioni virtuali:
 
       - landing page configurabili dinamicamente con differenti contenuti:
-      gallery, videogallery, protagonisti, social wall, podcast, notizie,
+      gallery, videogallery, protagonisti, social wall, podcast, notizie,
       documenti, mappa, info aggiuntive evento, streaming, rating;integrazione
       con piattaforme di streaming (Webex, YouTube, Facebook live);
 
       - gestore degli inviti via email: ricerca utenti per tag o lista evento,
-      logiche di ricerca sociodemografica, pianificazione invio, templating con
+      logiche di ricerca sociodemografica, pianificazione invio, templating con
       RTE e contenuti dinamici, differenti tipologie e casi d'uso email (invio
-      di prova, save the date, invito alla registrazione);
+      di prova, save the date, invito alla registrazione);
 
       - gestore dei partecipanti: invio biglietti, check-in, liste partecipanti;
 
       - touchpoint web e APP;
 
-      - community evento: discussioni, documenti, news, sondaggi;piattaforma di
+      - community evento: discussioni, documenti, news, sondaggi;piattaforma di
       formazione a distanza integrata per gli operatori;
 
       - permessi e workflow operatori che rispecchia l'organizzazione dell'ente;
@@ -99,3 +92,5 @@ localisation:
   localisationReady: true
   availableLanguages:
     - it-IT
+organisation:
+    uri: urn:x-italian-pa:r_lombar
