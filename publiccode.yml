@@ -2,7 +2,6 @@ publiccodeYmlVersion: "0"
 name: Servizio per la gestione di eventi e relative anagrafiche utenti
 applicationSuite: Open 2.0
 url: https://github.com/RegioneLombardia/Eventi
-landingURL: https://eventi.regione.lombardia.it
 releaseDate: "2024-11-23"
 platforms:
   - web
