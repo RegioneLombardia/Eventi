@@ -20,7 +20,7 @@
     "suggest": {
       "ext-phpredis": "Pure C implemented extension for PHP"
     },
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "frankdejonge",

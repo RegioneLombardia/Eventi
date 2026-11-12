@@ -11,7 +11,7 @@
   "authors": [
     "Steven Devooght"
   ],
-  "proscription": "MIT",
+  "license": "MIT",
   "homepage": "http://cognistreamer.github.io/tinyMCE-mention",
   "ignore": [
     "**/.*",

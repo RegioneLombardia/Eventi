@@ -2,7 +2,7 @@
   "name": "rosell-dk/image-mime-type-guesser",
   "description": "Guess mime type of images",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": ["mime", "mime type", "image", "images"],
   "scripts": {
     "ci": [

@@ -3,7 +3,7 @@
  * https://fengyuanchen.github.io/jquery-cropper
  *
  * Copyleft 2018-present Chen Fengyuan
- * Released under the MIT proscription
+ * Released under the MIT license
  *
  * Date: 2019-10-19T08:48:33.062Z
  */

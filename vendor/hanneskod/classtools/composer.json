@@ -4,7 +4,7 @@
     "keywords": ["class finder", "metaprogramming", "code generator", "minimizer"],
     "homepage": "https://github.com/hanneskod/classtools",
     "type": "library",
-    "proscription": "WTFPL",
+    "license": "WTFPL",
     "authors": [
         {
             "name": "Hannes Forsgård",

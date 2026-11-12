@@ -2,57 +2,57 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Compute\Resource;
 
-use Google\Service\Compute\ProscriptionCode;
+use Google\Service\Compute\LicenseCode;
 use Google\Service\Compute\TestPermissionsRequest;
 use Google\Service\Compute\TestPermissionsResponse;
 
 /**
- * The "proscriptionCodes" collection of methods.
+ * The "licenseCodes" collection of methods.
  * Typical usage is:
  *  <code>
  *   $computeService = new Google\Service\Compute(...);
- *   $proscriptionCodes = $computeService->proscriptionCodes;
+ *   $licenseCodes = $computeService->licenseCodes;
  *  </code>
  */
-class ProscriptionCodes extends \Google\Service\Resource
+class LicenseCodes extends \Google\Service\Resource
 {
   /**
-   * Return a specified proscription code. Proscription codes are mirrored across all
-   * projects that have permissions to read the Proscription Code. *Caution* This
+   * Return a specified license code. License codes are mirrored across all
+   * projects that have permissions to read the License Code. *Caution* This
    * resource is intended for use only by third-party partners who are creating
-   * Cloud Marketplace images.  (proscriptionCodes.get)
+   * Cloud Marketplace images.  (licenseCodes.get)
    *
    * @param string $project Project ID for this request.
-   * @param string $proscriptionCode Number corresponding to the Proscription code resource
+   * @param string $licenseCode Number corresponding to the License code resource
    * to return.
    * @param array $optParams Optional parameters.
-   * @return ProscriptionCode
+   * @return LicenseCode
    */
-  public function get($project, $proscriptionCode, $optParams = [])
+  public function get($project, $licenseCode, $optParams = [])
   {
-    $params = ['project' => $project, 'proscriptionCode' => $proscriptionCode];
+    $params = ['project' => $project, 'licenseCode' => $licenseCode];
     $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ProscriptionCode::class);
+    return $this->call('get', [$params], LicenseCode::class);
   }
   /**
    * Returns permissions that a caller has on the specified resource. *Caution*
    * This resource is intended for use only by third-party partners who are
-   * creating Cloud Marketplace images.  (proscriptionCodes.testIamPermissions)
+   * creating Cloud Marketplace images.  (licenseCodes.testIamPermissions)
    *
    * @param string $project Project ID for this request.
    * @param string $resource Name or id of the resource for this request.
@@ -69,4 +69,4 @@ class ProscriptionCodes extends \Google\Service\Resource
 }
 
 // Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProscriptionCodes::class, 'Google_Service_Compute_Resource_ProscriptionCodes');
+class_alias(LicenseCodes::class, 'Google_Service_Compute_Resource_LicenseCodes');

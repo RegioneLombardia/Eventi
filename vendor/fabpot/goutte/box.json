@@ -6,7 +6,7 @@
     ],
     "extract": false,
     "files": [
-        "PROSCRIPTION",
+        "LICENSE",
         "Goutte/Client.php"
     ],
     "finder": [

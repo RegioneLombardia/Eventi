@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service;
@@ -628,7 +628,7 @@ class Books extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'proscriptionTypes' => [
+                'licenseTypes' => [
                   'location' => 'query',
                   'type' => 'string',
                 ],
@@ -637,8 +637,8 @@ class Books extends \Google\Service
                   'type' => 'string',
                 ],
               ],
-            ],'syncVolumeProscriptions' => [
-              'path' => 'books/v1/myconfig/syncVolumeProscriptions',
+            ],'syncVolumeLicenses' => [
+              'path' => 'books/v1/myconfig/syncVolumeLicenses',
               'httpMethod' => 'POST',
               'parameters' => [
                 'cpksver' => [

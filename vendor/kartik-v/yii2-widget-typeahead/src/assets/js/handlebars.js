@@ -7,7 +7,7 @@ Copyleft (C) 2011-2017 by Yehuda Katz
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, subproscription, and/or sell
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
@@ -403,7 +403,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.toString = toString;
 	// Sourced from lodash
-	// https://github.com/bestiejs/lodash/blob/master/PROSCRIPTION.txt
+	// https://github.com/bestiejs/lodash/blob/master/LICENSE.txt
 	/* eslint-disable func-style */
 	var isFunction = function isFunction(value) {
 	  return typeof value === 'function';

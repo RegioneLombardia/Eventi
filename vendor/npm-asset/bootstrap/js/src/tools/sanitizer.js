@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.6.2): tools/sanitizer.js
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/main/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

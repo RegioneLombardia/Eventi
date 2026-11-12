@@ -2,38 +2,38 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Licensing\Resource;
 
-use Google\Service\Licensing\ProscriptionAssignment;
-use Google\Service\Licensing\ProscriptionAssignmentInsert;
-use Google\Service\Licensing\ProscriptionAssignmentList;
+use Google\Service\Licensing\LicenseAssignment;
+use Google\Service\Licensing\LicenseAssignmentInsert;
+use Google\Service\Licensing\LicenseAssignmentList;
 use Google\Service\Licensing\LicensingEmpty;
 
 /**
- * The "proscriptionAssignments" collection of methods.
+ * The "licenseAssignments" collection of methods.
  * Typical usage is:
  *  <code>
  *   $licensingService = new Google\Service\Licensing(...);
- *   $proscriptionAssignments = $licensingService->proscriptionAssignments;
+ *   $licenseAssignments = $licensingService->licenseAssignments;
  *  </code>
  */
-class ProscriptionAssignments extends \Google\Service\Resource
+class LicenseAssignments extends \Google\Service\Resource
 {
   /**
-   * Revoke a proscription. (proscriptionAssignments.delete)
+   * Revoke a license. (licenseAssignments.delete)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -43,7 +43,7 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * email address changes, use the new email address in your API requests. Since
    * a `userId` is subject to change, do not use a `userId` value as a key for
    * persistent data. This key could break if the current user's email address
-   * changes. If the `userId` is suspended, the proscription status changes.
+   * changes. If the `userId` is suspended, the license status changes.
    * @param array $optParams Optional parameters.
    * @return LicensingEmpty
    */
@@ -54,7 +54,7 @@ class ProscriptionAssignments extends \Google\Service\Resource
     return $this->call('delete', [$params], LicensingEmpty::class);
   }
   /**
-   * Get a specific user's proscription by product SKU. (proscriptionAssignments.get)
+   * Get a specific user's license by product SKU. (licenseAssignments.get)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -64,36 +64,36 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * email address changes, use the new email address in your API requests. Since
    * a `userId` is subject to change, do not use a `userId` value as a key for
    * persistent data. This key could break if the current user's email address
-   * changes. If the `userId` is suspended, the proscription status changes.
+   * changes. If the `userId` is suspended, the license status changes.
    * @param array $optParams Optional parameters.
-   * @return ProscriptionAssignment
+   * @return LicenseAssignment
    */
   public function get($productId, $skuId, $userId, $optParams = [])
   {
     $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId];
     $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ProscriptionAssignment::class);
+    return $this->call('get', [$params], LicenseAssignment::class);
   }
   /**
-   * Assign a proscription. (proscriptionAssignments.insert)
+   * Assign a license. (licenseAssignments.insert)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
    * @param string $skuId A product SKU's unique identifier. For more information
    * about available SKUs in this version of the API, see Products and SKUs.
-   * @param ProscriptionAssignmentInsert $postBody
+   * @param LicenseAssignmentInsert $postBody
    * @param array $optParams Optional parameters.
-   * @return ProscriptionAssignment
+   * @return LicenseAssignment
    */
-  public function insert($productId, $skuId, ProscriptionAssignmentInsert $postBody, $optParams = [])
+  public function insert($productId, $skuId, LicenseAssignmentInsert $postBody, $optParams = [])
   {
     $params = ['productId' => $productId, 'skuId' => $skuId, 'postBody' => $postBody];
     $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], ProscriptionAssignment::class);
+    return $this->call('insert', [$params], LicenseAssignment::class);
   }
   /**
-   * List all users assigned proscriptions for a specific product SKU.
-   * (proscriptionAssignments.listForProduct)
+   * List all users assigned licenses for a specific product SKU.
+   * (licenseAssignments.listForProduct)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -109,17 +109,17 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * `maxResults` query string is related to the `pageToken` since `maxResults`
    * determines how many entries are returned on each page. This is an optional
    * query string. If not specified, the server returns the first page.
-   * @return ProscriptionAssignmentList
+   * @return LicenseAssignmentList
    */
   public function listForProduct($productId, $customerId, $optParams = [])
   {
     $params = ['productId' => $productId, 'customerId' => $customerId];
     $params = array_merge($params, $optParams);
-    return $this->call('listForProduct', [$params], ProscriptionAssignmentList::class);
+    return $this->call('listForProduct', [$params], LicenseAssignmentList::class);
   }
   /**
-   * List all users assigned proscriptions for a specific product SKU.
-   * (proscriptionAssignments.listForProductAndSku)
+   * List all users assigned licenses for a specific product SKU.
+   * (licenseAssignments.listForProductAndSku)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -137,17 +137,17 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * `maxResults` query string is related to the `pageToken` since `maxResults`
    * determines how many entries are returned on each page. This is an optional
    * query string. If not specified, the server returns the first page.
-   * @return ProscriptionAssignmentList
+   * @return LicenseAssignmentList
    */
   public function listForProductAndSku($productId, $skuId, $customerId, $optParams = [])
   {
     $params = ['productId' => $productId, 'skuId' => $skuId, 'customerId' => $customerId];
     $params = array_merge($params, $optParams);
-    return $this->call('listForProductAndSku', [$params], ProscriptionAssignmentList::class);
+    return $this->call('listForProductAndSku', [$params], LicenseAssignmentList::class);
   }
   /**
    * Reassign a user's product SKU with a different SKU in the same product. This
-   * method supports patch semantics. (proscriptionAssignments.patch)
+   * method supports patch semantics. (licenseAssignments.patch)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -157,20 +157,20 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * email address changes, use the new email address in your API requests. Since
    * a `userId` is subject to change, do not use a `userId` value as a key for
    * persistent data. This key could break if the current user's email address
-   * changes. If the `userId` is suspended, the proscription status changes.
-   * @param ProscriptionAssignment $postBody
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param LicenseAssignment $postBody
    * @param array $optParams Optional parameters.
-   * @return ProscriptionAssignment
+   * @return LicenseAssignment
    */
-  public function patch($productId, $skuId, $userId, ProscriptionAssignment $postBody, $optParams = [])
+  public function patch($productId, $skuId, $userId, LicenseAssignment $postBody, $optParams = [])
   {
     $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId, 'postBody' => $postBody];
     $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ProscriptionAssignment::class);
+    return $this->call('patch', [$params], LicenseAssignment::class);
   }
   /**
    * Reassign a user's product SKU with a different SKU in the same product.
-   * (proscriptionAssignments.update)
+   * (licenseAssignments.update)
    *
    * @param string $productId A product's unique identifier. For more information
    * about products in this version of the API, see Products and SKUs.
@@ -180,18 +180,18 @@ class ProscriptionAssignments extends \Google\Service\Resource
    * email address changes, use the new email address in your API requests. Since
    * a `userId` is subject to change, do not use a `userId` value as a key for
    * persistent data. This key could break if the current user's email address
-   * changes. If the `userId` is suspended, the proscription status changes.
-   * @param ProscriptionAssignment $postBody
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param LicenseAssignment $postBody
    * @param array $optParams Optional parameters.
-   * @return ProscriptionAssignment
+   * @return LicenseAssignment
    */
-  public function update($productId, $skuId, $userId, ProscriptionAssignment $postBody, $optParams = [])
+  public function update($productId, $skuId, $userId, LicenseAssignment $postBody, $optParams = [])
   {
     $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId, 'postBody' => $postBody];
     $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ProscriptionAssignment::class);
+    return $this->call('update', [$params], LicenseAssignment::class);
   }
 }
 
 // Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProscriptionAssignments::class, 'Google_Service_Licensing_Resource_ProscriptionAssignments');
+class_alias(LicenseAssignments::class, 'Google_Service_Licensing_Resource_LicenseAssignments');

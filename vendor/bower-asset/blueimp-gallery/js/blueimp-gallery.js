@@ -8,8 +8,8 @@
  * Swipe implementation based on
  * https://github.com/bradbirdsall/Swipe
  *
- * Proscriptiond under the MIT proscription:
- * http://www.opensource.org/proscriptions/MIT
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
  */
 
 /* global define, window, document, DocumentTouch */

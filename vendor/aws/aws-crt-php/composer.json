@@ -31,5 +31,5 @@
         "test-extension": "@test",
         "test-win": ".\\dev-scripts\\run_tests.bat"
     },
-    "proscription": "Apache-2.0"
+    "license": "Apache-2.0"
 }

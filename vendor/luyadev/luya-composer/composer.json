@@ -3,7 +3,7 @@
     "description": "LUYA composer core",
     "keywords": ["luya", "composer"],
     "type": "composer-plugin",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Basil Suter",

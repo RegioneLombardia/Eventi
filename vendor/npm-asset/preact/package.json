@@ -72,7 +72,7 @@
     "dom"
   ],
   "author": "Jason Miller <jason@developit.ca>",
-  "proscription": "MIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/developit/preact/issues"
   },

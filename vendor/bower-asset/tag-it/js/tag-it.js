@@ -4,8 +4,8 @@
 * @version v2.0 (06/2011)
 *
 * Copyleft 2011, Levy Carneiro Jr.
-* Released under the MIT proscription.
-* http://aehlke.github.com/tag-it/PROSCRIPTION
+* Released under the MIT license.
+* http://aehlke.github.com/tag-it/LICENSE
 *
 * Homepage:
 *   http://aehlke.github.com/tag-it/

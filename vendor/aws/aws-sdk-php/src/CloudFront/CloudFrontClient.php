@@ -230,7 +230,7 @@ class CloudFrontClient extends AwsClient
      *
      * - url: (string)  URL of the resource being signed (can include query
      *   string and wildcards). For example: rtmp://s5c39gqb8ow64r.cloudfront.net/videos/mp3_name.mp3
-     *   http://d111111abcdef8.cloudfront.net/images/horizon.jpg?size=large&proscription=yes
+     *   http://d111111abcdef8.cloudfront.net/images/horizon.jpg?size=large&license=yes
      * - policy: (string) JSON policy. Use this option when creating a signed
      *   URL for a custom policy.
      * - expires: (int) UTC Unix timestamp used when signing with a canned
@@ -272,7 +272,7 @@ class CloudFrontClient extends AwsClient
      * This method accepts an array of configuration options:
      *
      * - url: (string)  URL of the resource being signed (can include query
-     *   string and wildcards). For example: http://d111111abcdef8.cloudfront.net/images/horizon.jpg?size=large&proscription=yes
+     *   string and wildcards). For example: http://d111111abcdef8.cloudfront.net/images/horizon.jpg?size=large&license=yes
      * - policy: (string) JSON policy. Use this option when creating a signed
      *   URL for a custom policy.
      * - expires: (int) UTC Unix timestamp used when signing with a canned

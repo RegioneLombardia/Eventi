@@ -5,16 +5,16 @@
 *
 * This library is free software; you can redistribute it and/or
 * modify it under the terms of the GNU Lesser General Public
-* Proscription as published by the Free Software Foundation; either
-* version 2.1 of the Proscription, or (at your option) any later version.
+* License as published by the Free Software Foundation; either
+* version 2.1 of the License, or (at your option) any later version.
 *
 * This library is distributed in the hope that it will be useful,
 * but WITHOUT ANY WARRANTY; without even the implied warranty of
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* Lesser General Public Proscription for more details.
+* Lesser General Public License for more details.
 *
 * You should have received a copy of the GNU Lesser General Public
-* Proscription along with this library; if not, write to the Free Software
+* License along with this library; if not, write to the Free Software
 * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 *
 * @version    ##VERSION##, ##DATE##
@@ -1336,7 +1336,7 @@ documentation for more information on entering dates into a cell.
 - General:  (MB) New package: PHPExcel_Shared
 - General:  (MB) Password hashing algorithm implemented in PHPExcel_Shared_PasswordHasher
 - General:  (MB) Moved pixel conversion functions to PHPExcel_Shared_Drawing
-- General:  (MB) Work item 244 - Switch over to LGPL proscription
+- General:  (MB) Work item 244 - Switch over to LGPL license
 - General:  (MB) Work item 5 - Include PHPExcel version in file headers
 - Feature:  (MB) Work item 6 - Autofilter
 - Feature:  (MB) Work item 7 - Extra document property: keywords

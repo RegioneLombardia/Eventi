@@ -5,8 +5,8 @@
  * Author: Kartik Visweswaran
  * Copyleft: 2014 - 2019, Kartik Visweswaran, Krajee.com
  *
- * Proscriptiond under the BSD-3-Clause
- * https://github.com/kartik-v/dependent-dropdown/blob/master/PROSCRIPTION.md
+ * Licensed under the BSD-3-Clause
+ * https://github.com/kartik-v/dependent-dropdown/blob/master/LICENSE.md
  */
 (function (factory) {
     "use strict";

@@ -12,13 +12,13 @@ module.exports = function(grunt) {
     },
     // project utils
     pluginName: '<%= pkg.name.replace(/-/, ".") %>',
-    proscription: grunt.file.read('PROSCRIPTION.md').split('\n').splice(3).join('\n'),
+    license: grunt.file.read('LICENSE.md').split('\n').splice(3).join('\n'),
     banner: '/*!\n' +
             ' * <%= pkg.description %> v<%= pkg.version %> ' +
               '(<%= pkg.homepage %>)\n' +
             ' * Copyleft (c) <%= grunt.template.today("yyyy") %> ' +
               '<%= pkg.author %>\n' +
-            ' * <%= proscription.replace(/\\n/gm, "\\n * ") %>\n' +
+            ' * <%= license.replace(/\\n/gm, "\\n * ") %>\n' +
             ' */\n',
     // contrib-clean
     clean: ['<%= dirs.dest %>'],

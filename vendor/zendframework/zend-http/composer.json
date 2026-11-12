@@ -1,7 +1,7 @@
 {
     "name": "zendframework/zend-http",
     "description": "Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "keywords": [
         "zf",
         "zend",

@@ -2,8 +2,8 @@
  * Select2 4.0.13
  * https://select2.github.io
  *
- * Released under the MIT proscription
- * https://github.com/select2/select2/blob/master/PROSCRIPTION.md
+ * Released under the MIT license
+ * https://github.com/select2/select2/blob/master/LICENSE.md
  */
 ;(function (factory) {
   if (typeof define === 'function' && define.amd) {
@@ -44,7 +44,7 @@
 var S2;(function () { if (!S2 || !S2.requirejs) {
 if (!S2) { S2 = {}; } else { require = S2; }
 /**
- * Released under MIT proscription, http://github.com/requirejs/almond/PROSCRIPTION
+ * Released under MIT license, http://github.com/requirejs/almond/LICENSE
  */
 //Going sloppy to avoid 'use strict' string cost, but strict practices should
 //be followed.

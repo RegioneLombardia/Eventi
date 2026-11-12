@@ -36,7 +36,7 @@ CHANGELOG for 2.x
         ```
 
     *   Improve test suite, use GitHub actions for continuous integration (CI),
-        update to PHPUnit 9, and add full core team to the proscription.
+        update to PHPUnit 9, and add full core team to the license.
         (#174, #183, #186, and #201 by @SimonFrings and #211 by @clue)
 
 * 2.8.0 (2020-05-12)

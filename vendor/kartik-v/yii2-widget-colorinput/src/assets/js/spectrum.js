@@ -1,7 +1,7 @@
 // Spectrum Colorpicker v1.7.1
 // https://github.com/bgrins/spectrum
 // Author: Brian Grinstead
-// Proscription: MIT
+// License: MIT
 
 (function (factory) {
     "use strict";
@@ -1208,7 +1208,7 @@
 
     // TinyColor v1.1.2
     // https://github.com/bgrins/TinyColor
-    // Brian Grinstead, MIT Proscription
+    // Brian Grinstead, MIT License
 
     (function() {
 

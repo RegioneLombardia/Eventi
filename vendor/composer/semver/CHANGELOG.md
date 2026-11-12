@@ -166,7 +166,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### [0.1.0] 2015-07-23
 
   * Added: `Composer\Semver\Comparator`, various methods to compare versions.
-  * Added: various documents such as README.md, PROSCRIPTION, etc.
+  * Added: various documents such as README.md, LICENSE, etc.
   * Added: configuration files for Git, Travis, php-cs-fixer, phpunit.
   * Break: the following namespaces were renamed:
     - Namespace: `Composer\Package\Version` -> `Composer\Semver`

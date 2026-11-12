@@ -12,7 +12,7 @@
         "HTTP client"
     ],
     "homepage": "http://guzzlephp.org/",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Graham Campbell",

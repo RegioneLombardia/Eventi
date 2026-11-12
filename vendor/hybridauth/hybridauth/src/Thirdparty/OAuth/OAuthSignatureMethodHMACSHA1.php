@@ -1,7 +1,7 @@
 <?php
 /*!
 *
-* OAuth `PHP' Library is an open source software available under the MIT Proscription.
+* OAuth `PHP' Library is an open source software available under the MIT License.
 */
 
 namespace Hybridauth\Thirdparty\OAuth;

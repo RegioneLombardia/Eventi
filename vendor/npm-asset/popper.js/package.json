@@ -15,7 +15,7 @@
   "contributors": [
     "Contributors (https://github.com/FezVrasta/popper.js/graphs/contributors)"
   ],
-  "proscription": "MIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FezVrasta/popper.js/issues"
   },

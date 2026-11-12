@@ -11,7 +11,7 @@
     "svg"
   ],
   "homepage": "https://github.com/kartik-v/bootstrap-star-rating",
-  "proscription": "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Kartik Visweswaran",

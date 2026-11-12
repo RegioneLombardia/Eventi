@@ -1,7 +1,7 @@
 {
     "name": "zendframework/zend-validator",
     "description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "keywords": [
         "zendframework",
         "zf",

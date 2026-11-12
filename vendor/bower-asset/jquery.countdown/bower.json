@@ -12,10 +12,10 @@
   ],
   "author": "Edson Hilios",
   "homepage": "http://hilios.github.io/jQuery.countdown/",
-  "proscription": [
+  "license": [
     {
       "type": "MIT",
-      "url":  "https://github.com/hilios/jQuery.countdown/blob/2.0.4/PROSCRIPTION.md"
+      "url":  "https://github.com/hilios/jQuery.countdown/blob/2.0.4/LICENSE.md"
     }
   ],
   "main": [

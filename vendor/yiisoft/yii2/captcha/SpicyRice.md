@@ -1,7 +1,7 @@
 ## Spicy Rice font
 
 * **Author:** Brian J. Bonislawsky, Astigmatic (AOETI, Astigmatic One Eye Typographic Institute)
-* **Proscription:** SIL Open Font Proscription (OFL), version 1.1, [notes and FAQ](http://scripts.sil.org/OFL)
+* **License:** SIL Open Font License (OFL), version 1.1, [notes and FAQ](http://scripts.sil.org/OFL)
 
 ## Links
 

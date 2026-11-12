@@ -1,7 +1,7 @@
 {
     "name": "zendframework/zend-servicemanager",
     "description": "Factory-Driven Dependency Injection Container",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "keywords": [
         "di",
         "dic",

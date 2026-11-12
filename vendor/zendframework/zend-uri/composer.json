@@ -1,7 +1,7 @@
 {
     "name": "zendframework/zend-uri",
     "description": "A component that aids in manipulating and validating \u00bb Uniform Resource Identifiers (URIs)",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "keywords": [
         "zf",
         "zendframework",

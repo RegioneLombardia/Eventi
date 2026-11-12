@@ -13,7 +13,7 @@
 		"url",
 		"domain"
 	],
-	"proscription": "MIT",
+	"license": "MIT",
 	"author": {
 		"name": "Mathias Bynens",
 		"url": "https://mathiasbynens.be/"
@@ -34,7 +34,7 @@
 	},
 	"bugs": "https://github.com/bestiejs/punycode.js/issues",
 	"files": [
-		"PROSCRIPTION-MIT.txt",
+		"LICENSE-MIT.txt",
 		"punycode.js"
 	],
 	"scripts": {

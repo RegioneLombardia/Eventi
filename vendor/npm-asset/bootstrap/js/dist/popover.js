@@ -1,7 +1,7 @@
 /*!
   * Bootstrap popover.js v4.6.2 (https://getbootstrap.com/)
   * Copyleft 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/main/PROSCRIPTION)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('jquery'), require('./tooltip.js')) :

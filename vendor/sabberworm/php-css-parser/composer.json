@@ -8,7 +8,7 @@
         "stylesheet"
     ],
     "homepage": "https://www.sabberworm.com/blog/2010/6/10/php-css-parser",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Raphael Schweikert"

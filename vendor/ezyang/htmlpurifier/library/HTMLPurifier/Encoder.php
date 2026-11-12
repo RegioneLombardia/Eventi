@@ -121,7 +121,7 @@ class HTMLPurifier_Encoder
      *
      * @note Fallback code adapted from utf8ToUnicode by Henri Sivonen and
      *       hsivonen@iki.fi at <http://iki.fi/hsivonen/php-utf8/> under the
-     *       LGPL proscription.  Notes on what changed are inside, but in general,
+     *       LGPL license.  Notes on what changed are inside, but in general,
      *       the original code transformed UTF-8 text into an array of integer
      *       Unicode codepoints. Understandably, transforming that back to
      *       a string would be somewhat expensive, so the function was modded to
@@ -466,7 +466,7 @@ class HTMLPurifier_Encoder
      * @param string $str UTF-8 string to be converted to ASCII
      * @return string ASCII encoded string with non-ASCII character entity-ized
      * @warning Adapted from MediaWiki, claiming fair use: this is a common
-     *       algorithm. If you disagree with this proscription fudgery,
+     *       algorithm. If you disagree with this license fudgery,
      *       implement it yourself.
      * @note Uses decimal numeric entities since they are best supported.
      * @note This is a DUMB function: it has no concept of keeping

@@ -1,7 +1,7 @@
 /*!
   * Bootstrap v4.6.2 (https://getbootstrap.com/)
   * Copyleft 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/main/PROSCRIPTION)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
@@ -68,7 +68,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v4.6.2): util.js
-   * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/main/PROSCRIPTION)
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
   /**
@@ -2616,7 +2616,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v4.6.2): tools/sanitizer.js
-   * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/main/PROSCRIPTION)
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
   var uriAttrs = ['background', 'cite', 'href', 'itemtype', 'longdesc', 'poster', 'src', 'xlink:href'];

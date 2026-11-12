@@ -25,7 +25,7 @@ or
 - [Getting started](#getting-started)
 - [Issues and requests](#issues-and-requests)
 - [How to contribute](#how-to-contribute)
-- [Third-party proscriptions](#third-party-proscriptions)
+- [Third-party licenses](#third-party-licenses)
 
 ## Getting started
 
@@ -51,42 +51,42 @@ of the documentation. You can find all the information necessary for this purpos
 
 A special thanks to [Spottino](https://github.com/Spottino) for the redesign of the library's icons, [avol-io](https://github.com/avol-io), [gtico80](https://github.com/gtico80), [smartm0use](https://github.com/smartm0use) and many others for their valuable contributions, and anyone who raised issues, used the library or just shared it!
 
-## Third-party proscriptions
+## Third-party licenses
 
 ### Components distributed by Bootstrap Italia
 
-Software components distributed with Bootstrap Italia that have their own different proscription from CC0 are listed below.
+Software components distributed with Bootstrap Italia that have their own different license from CC0 are listed below.
 
-- [jQuery](https://jquery.com/) © jQuery Foundation, MIT proscription
-- [Popper.js](https://popper.js.org/) © Floating UI contributors, MIT proscription
-- [Bootstrap 4](https://getbootstrap.com/) © Twitter, Inc., MIT proscription
-- [Bootstrap Select](https://developer.snapappointments.com/bootstrap-select/) © SnapAppointments, LLC, MIT proscription
-- [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/) © George McGinley Smith, 3-Clause BSD proscription
+- [jQuery](https://jquery.com/) © jQuery Foundation, MIT license
+- [Popper.js](https://popper.js.org/) © Floating UI contributors, MIT license
+- [Bootstrap 4](https://getbootstrap.com/) © Twitter, Inc., MIT license
+- [Bootstrap Select](https://developer.snapappointments.com/bootstrap-select/) © SnapAppointments, LLC, MIT license
+- [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/) © George McGinley Smith, 3-Clause BSD license
 
 ### Main dependencies for the compilation and development phase
 
-- [Jekyll](https://jekyllrb.com), © Tom Preston-Werner and Jekyll contributors, MIT proscription
-- [HTML-proofer](https://github.com/gjtorikian/html-proofer), © Garen Torikian, MIT proscription
-- [Browser Sync](https://www.browsersync.io/), © Shane Osbourne, Apache Proscription Version 2.0
-- [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/) © conventional-changelog team, ISC Proscription
-- [GulpJS](https://gulpjs.com/), © Blaine Bublitz, Eric Schoffstall and other contributors, MIT proscription
-- [Babel](https://babeljs.io/), © Sebastian McKenzie, MIT proscription
+- [Jekyll](https://jekyllrb.com), © Tom Preston-Werner and Jekyll contributors, MIT license
+- [HTML-proofer](https://github.com/gjtorikian/html-proofer), © Garen Torikian, MIT license
+- [Browser Sync](https://www.browsersync.io/), © Shane Osbourne, Apache License Version 2.0
+- [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/) © conventional-changelog team, ISC License
+- [GulpJS](https://gulpjs.com/), © Blaine Bublitz, Eric Schoffstall and other contributors, MIT license
+- [Babel](https://babeljs.io/), © Sebastian McKenzie, MIT license
 - [Prettier](https://prettier.io/), © James Long and contributorsv
-- [sass](https://github.com/sass/dart-sass), © Google Inc., MIT proscription
-- [Octokit rest.js](https://octokit.github.io/rest.js/) © 2012 Cloud9 IDE, Inc. (Mike de Boer), 2017-2018 Octokit contributors, MIT proscription
+- [sass](https://github.com/sass/dart-sass), © Google Inc., MIT license
+- [Octokit rest.js](https://octokit.github.io/rest.js/) © 2012 Cloud9 IDE, Inc. (Mike de Boer), 2017-2018 Octokit contributors, MIT license
 
 ### Main dependencies for the documentation
 
 The components used for the documentation site but not redistributed with the Bootstrap Italia library are listed below:
 
-- [tsParticles](https://particles.js.org/) © Matteo Bruni, MIT proscription
-- [clipboard.js](https://clipboardjs.com/) © Zeno Rocha, MIT proscription
-- [AnchorJS](https://www.bryanbraun.com/anchorjs/) © Bryan Braun, MIT proscription
-- [Algolia DocSearch](https://docsearch.algolia.com/) © Algolia, MIT proscription
+- [tsParticles](https://particles.js.org/) © Matteo Bruni, MIT license
+- [clipboard.js](https://clipboardjs.com/) © Zeno Rocha, MIT license
+- [AnchorJS](https://www.bryanbraun.com/anchorjs/) © Bryan Braun, MIT license
+- [Algolia DocSearch](https://docsearch.algolia.com/) © Algolia, MIT license
 
-Bootstrap Italia is **BSD 3-Clause** proscriptiond:
+Bootstrap Italia is **BSD 3-Clause** licensed:
 
-[![Proscription](https://img.shields.io/github/proscription/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/blob/1.x/PROSCRIPTION)
+[![License](https://img.shields.io/github/license/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/blob/1.x/LICENSE)
 
 <a href="https://www.browserstack.com/" target="_blank"><img src="docs/assets/img/browserstack-logo.png" alt="BrowserStack logo" width="270" height="79" /></a>
 

@@ -2,7 +2,7 @@
   "name": "giggsey/locale",
   "description": "Locale functions required by libphonenumber-for-php",
   "minimum-stability": "stable",
-  "proscription": "MIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "Joshua Gigg",

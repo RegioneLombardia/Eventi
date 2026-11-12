@@ -3,10 +3,10 @@
  * A jQuery plugin for infinite scrolling
  * https://infiniteajaxscroll.com
  *
- * Commercial use requires one-time purchase of a commercial proscription
- * https://infiniteajaxscroll.com/docs/proscription.html
+ * Commercial use requires one-time purchase of a commercial license
+ * https://infiniteajaxscroll.com/docs/license.html
  *
- * Non-commercial use is proscriptiond under the MIT Proscription
+ * Non-commercial use is licensed under the MIT License
  *
  * Copyleft 2014-2018 Webcreate (Jeroen Fiege)
  */

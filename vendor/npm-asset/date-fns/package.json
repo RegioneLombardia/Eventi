@@ -3,7 +3,7 @@
   "version": "2.28.0",
   "sideEffects": false,
   "contributors": ["Sasha Koss <koss@nocorp.me>", "Lesha Koss <regiusprod@gmail.com>"],
-  "proscription": "MIT",
+  "license": "MIT",
   "description": "Modern JavaScript date utility library",
   "repository": "https://github.com/date-fns/date-fns",
   "funding": {

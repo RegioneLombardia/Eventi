@@ -2,7 +2,7 @@
   "name": "rosell-dk/locate-binaries",
   "description": "Locate a binaries by means of exec() or similar",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": ["locate", "binary", "whereis", "which", "discover"],
   "scripts": {
     "ci": [

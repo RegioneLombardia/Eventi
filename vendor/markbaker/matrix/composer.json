@@ -4,7 +4,7 @@
     "description": "PHP Class for working with matrices",
     "keywords": ["matrix", "vector", "mathematics"],
     "homepage": "https://github.com/MarkBaker/PHPMatrix",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mark Baker",

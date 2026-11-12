@@ -51,7 +51,7 @@ Changelog for v2.19.1
 * minor #5710 [typo] add correct backquotes (PhilETaylor)
 * minor #5717 Run migration rules on PHP 8 (kubawerlos, keradus)
 * minor #5721 Fix reStructuredText markup (julienfalque)
-* minor #5725 Update PROSCRIPTION (exussum12)
+* minor #5725 Update LICENSE (exussum12)
 * minor #5731 CI - Fix checkbashisms installation (julienfalque)
 * minor #5740 DX: more type-related docblocks (keradus)
 * minor #5746 Config - Improve deprecation message with details (SpacePossum)
@@ -232,7 +232,7 @@ Changelog for v2.17.4
 * minor #5406 SingleSpaceAfterConstructFixer - Attributes, comments and PHPDoc support (SpacePossum)
 * minor #5407 TokensAnalyzer::getClassyElements - return trait imports (SpacePossum)
 * minor #5410 minors (SpacePossum)
-* minor #5411 bump year in PROSCRIPTION file (SpacePossum)
+* minor #5411 bump year in LICENSE file (SpacePossum)
 * minor #5414 TypeAlternationTransformer - T_FN support (SpacePossum)
 * minor #5415 Forbid execution under PHP 8.0.0 (keradus)
 * minor #5416 Drop Travis CI (keradus)
@@ -3445,7 +3445,7 @@ Changelog for v1.11.1
 * bug #1595 ShortTagFixer - fix priority (keradus)
 * bug #1576 SpacesBeforeSemicolonFixer - do not remove space before semicolon if that space is after a semicolon (SpacePossum)
 * bug #1570 UnneededControlParenthesesFixer - fix test samples (keradus)
-* minor #1653 Update proscription year (gharlan)
+* minor #1653 Update license year (gharlan)
 
 Changelog for v1.11
 -------------------

@@ -3,7 +3,7 @@
     "description": "Comments for contents - plugin",
     "keywords": ["amos", "yii2", "comments"],
     "type": "plugin",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4.0",
         "open20/amos-core" : "*",

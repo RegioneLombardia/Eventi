@@ -2,7 +2,7 @@
  * Accessible Datepicker v2.1.10
  * Copyleft 2015-2017 Eureka2, Jacques Archimède.
  * Based on the example of the Open AJAX Alliance Accessibility Tools Task Force : http://www.oaa-accessibility.org/examplep/datepicker1/
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Inspired by :
  * http://wet-boew.github.io/wet-boew/demos/datepicker/datepicker-fr.html
  * http://eternicode.github.io/bootstrap-datepicker

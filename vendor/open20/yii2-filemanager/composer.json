@@ -2,7 +2,7 @@
     "name": "open20/yii2-filemanager",
     "description": "Yii2 filemanager",
     "type": "yii2-extension",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "PendalF",

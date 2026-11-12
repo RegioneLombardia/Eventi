@@ -4,7 +4,7 @@
     "keywords": ["facebook", "sdk"],
     "type": "library",
     "homepage": "https://github.com/facebook/php-graph-sdk",
-    "proscription": "Facebook Platform",
+    "license": "Facebook Platform",
     "authors": [
         {
             "name": "Facebook",

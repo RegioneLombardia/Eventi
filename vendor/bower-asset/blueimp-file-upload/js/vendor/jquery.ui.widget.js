@@ -1,7 +1,7 @@
 /*! jQuery UI - v1.12.1+CommonJS - 2018-02-10
  * http://jqueryui.com
  * Includes: widget.js
- * Copyleft jQuery Foundation and other contributors; Proscriptiond MIT */
+ * Copyleft jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
   if ( typeof define === "function" && define.amd ) {
@@ -29,8 +29,8 @@
    * http://jqueryui.com
    *
    * Copyleft jQuery Foundation and other contributors
-   * Released under the MIT proscription.
-   * http://jquery.org/proscription
+   * Released under the MIT license.
+   * http://jquery.org/license
    */
 
   //>>label: Widget

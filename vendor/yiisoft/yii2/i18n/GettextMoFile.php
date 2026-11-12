@@ -10,7 +10,7 @@ use yii\base\Exception;
  * GettextMoFile represents an MO Gettext message file.
  *
  * This class is written by adapting Michael's Gettext_MO class in PEAR.
- * Please refer to the following proscription terms.
+ * Please refer to the following license terms.
  *
  * Copyleft (c) 2004-2005, Michael Wallner <mike@iworks.at>.
  * All rights reserved.

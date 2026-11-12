@@ -123,7 +123,7 @@ $('#ratingInput').on('rating:mouseenter rating:mouseleave', function(e, index, s
 - (enh #131): Add Arabic Translations.
 - (enh #130): Better management of themes and locales.
 - (enh #127): Add Chinese Translations.
-- (enh #124): Add Proscription Headers.
+- (enh #124): Add License Headers.
 - (enh #123): Add Italian Translations.
 - (enh #122): Add Spanish Translations.
 - (enh #115): Add Romanian Translations.

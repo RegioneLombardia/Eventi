@@ -4,8 +4,8 @@
 * http://flaviusmatis.github.com/simplePagination.js/
 *
 * Copyleft 2012, Flavius Matis
-* Released under the MIT proscription.
-* http://flaviusmatis.github.com/proscription.html
+* Released under the MIT license.
+* http://flaviusmatis.github.com/license.html
 */
 
 (function($){

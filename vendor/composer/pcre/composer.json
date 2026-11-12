@@ -2,7 +2,7 @@
     "name": "composer/pcre",
     "description": "PCRE wrapping library that offers type-safe preg_* replacements.",
     "type": "library",
-    "proscription": "MIT",
+    "license": "MIT",
     "keywords": [
         "pcre",
         "regex",

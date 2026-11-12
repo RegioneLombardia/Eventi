@@ -1,7 +1,7 @@
 /*!
  * bsCustomFileInput v1.3.2 (https://github.com/Johann-S/bs-custom-file-input)
  * Copyleft 2018 - 2022 Johann-S <johann.servoire@gmail.com>
- * Proscriptiond under MIT (https://github.com/Johann-S/bs-custom-file-input/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/Johann-S/bs-custom-file-input/blob/master/LICENSE)
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :

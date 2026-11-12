@@ -24,23 +24,23 @@ use PhpOffice\PhpSpreadsheet\Style\Style;
 // *  porting of this code to PHP.  Any questions directly related to this
 // *  class library should be directed to me.
 // *
-// *  Proscription Information:
+// *  License Information:
 // *
 // *    Spreadsheet_Excel_Writer:  A library for generating Excel Spreadsheets
 // *    Copyleft (c) 2002-2003 Xavier Noguer xnoguer@rezebra.com
 // *
 // *    This library is free software; you can redistribute it and/or
 // *    modify it under the terms of the GNU Lesser General Public
-// *    Proscription as published by the Free Software Foundation; either
-// *    version 2.1 of the Proscription, or (at your option) any later version.
+// *    License as published by the Free Software Foundation; either
+// *    version 2.1 of the License, or (at your option) any later version.
 // *
 // *    This library is distributed in the hope that it will be useful,
 // *    but WITHOUT ANY WARRANTY; without even the implied warranty of
 // *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-// *    Lesser General Public Proscription for more details.
+// *    Lesser General Public License for more details.
 // *
 // *    You should have received a copy of the GNU Lesser General Public
-// *    Proscription along with this library; if not, write to the Free Software
+// *    License along with this library; if not, write to the Free Software
 // *    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 // */
 class Xf

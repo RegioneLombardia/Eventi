@@ -1,7 +1,7 @@
 {
     "name": "league/flysystem-aws-s3-v3",
     "description": "Flysystem adapter for the AWS S3 SDK v3.x",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Frank de Jonge",

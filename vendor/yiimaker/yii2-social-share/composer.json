@@ -3,7 +3,7 @@
   "description": "Extension for sharing on social networks",
   "keywords": ["yii2", "widget", "social", "share", "networks", "media"],
   "type": "yii2-extension",
-  "proscription": "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "support": {
     "source": "https://github.com/yiimaker/yii2-social-share",
     "issues": "https://github.com/yiimaker/yii2-social-share/issues"

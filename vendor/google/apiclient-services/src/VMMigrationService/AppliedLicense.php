@@ -2,27 +2,27 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\VMMigrationService;
 
-class AppliedProscription extends \Google\Model
+class AppliedLicense extends \Google\Model
 {
   /**
    * @var string
    */
-  public $osProscription;
+  public $osLicense;
   /**
    * @var string
    */
@@ -31,16 +31,16 @@ class AppliedProscription extends \Google\Model
   /**
    * @param string
    */
-  public function setOsProscription($osProscription)
+  public function setOsLicense($osLicense)
   {
-    $this->osProscription = $osProscription;
+    $this->osLicense = $osLicense;
   }
   /**
    * @return string
    */
-  public function getOsProscription()
+  public function getOsLicense()
   {
-    return $this->osProscription;
+    return $this->osLicense;
   }
   /**
    * @param string
@@ -59,4 +59,4 @@ class AppliedProscription extends \Google\Model
 }
 
 // Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppliedProscription::class, 'Google_Service_VMMigrationService_AppliedProscription');
+class_alias(AppliedLicense::class, 'Google_Service_VMMigrationService_AppliedLicense');

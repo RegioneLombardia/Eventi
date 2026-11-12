@@ -1,9 +1,9 @@
 <?php
-namespace Aws\ProscriptionManagerUserSubscriptions\Exception;
+namespace Aws\LicenseManagerUserSubscriptions\Exception;
 
 use Aws\Exception\AwsException;
 
 /**
- * Represents an error interacting with the **AWS Proscription Manager User Subscriptions** service.
+ * Represents an error interacting with the **AWS License Manager User Subscriptions** service.
  */
-class ProscriptionManagerUserSubscriptionsException extends AwsException {}
+class LicenseManagerUserSubscriptionsException extends AwsException {}

@@ -17,7 +17,7 @@
  * spark-admin:people_write scope.
  * 
  * To learn more about managing people in a room see the Memberships API.
- * For information about how to allocate Hybrid Services proscriptions to people,
+ * For information about how to allocate Hybrid Services licenses to people,
  * see the Managing Hybrid Services guide.
  * 
  * MethodDescription

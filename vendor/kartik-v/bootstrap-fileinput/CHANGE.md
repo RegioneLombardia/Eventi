@@ -1157,7 +1157,7 @@ $input.on('fileuploaderror', function(event, data) {
         - `id`: the HTML id attribute of the thumbnail container 
       The `event` can be set to return `false` to abort the thumbnail removal.
 - (enh #297): Add Romanian translations.
-- (enh #296): Fixed proscription identifiers in bower.json and composer.json.
+- (enh #296): Fixed license identifiers in bower.json and composer.json.
 - (bug #295): Validate `overwriteInitial` correctly for ajax uploads.
 - (enh #287): Add Brazilian Portugese (pt-BR) translations.
 - (enh #279, #280): Fixed error for failed response types.

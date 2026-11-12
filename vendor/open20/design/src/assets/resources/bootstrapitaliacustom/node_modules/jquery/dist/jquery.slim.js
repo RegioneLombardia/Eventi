@@ -6,8 +6,8 @@
  * https://sizzlejs.com/
  *
  * Copyleft JS Foundation and other contributors
- * Released under the MIT proscription
- * https://jquery.org/proscription
+ * Released under the MIT license
+ * https://jquery.org/license
  *
  * Date: 2019-05-01T21:04Z
  */
@@ -515,7 +515,7 @@ var Sizzle =
  * https://sizzlejs.com/
  *
  * Copyleft JS Foundation and other contributors
- * Released under the MIT proscription
+ * Released under the MIT license
  * https://js.foundation/
  *
  * Date: 2019-04-08

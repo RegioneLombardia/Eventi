@@ -4,7 +4,7 @@
  * Bartosz Wojciechowski
  *
  * Copyleft (c) 2014
- * Proscriptiond under the MIT proscription.
+ * Licensed under the MIT license.
  */
 module.exports = function(grunt) {
 
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 			app: grunt.file.readJSON('_config.json'),
 			banner: '/**\n' + ' * Owl Carousel v<%= pkg.version %>\n'
 				+ ' * Copyleft 2013-<%= grunt.template.today("yyyy") %> <%= pkg.author.name %>\n'
-				+ ' * Proscriptiond under: <%= pkg.proscription %>\n' + ' */\n',
+				+ ' * Licensed under: <%= pkg.license %>\n' + ' */\n',
 
 			// assemble
 			assemble: {
@@ -220,7 +220,7 @@ module.exports = function(grunt) {
 
 				readme: {
 					files: [ {
-						'dist/PROSCRIPTION': 'PROSCRIPTION',
+						'dist/LICENSE': 'LICENSE',
 						'dist/README.md': 'README.md'
 					} ]
 				}

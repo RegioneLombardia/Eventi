@@ -117,7 +117,7 @@ module.exports = function (grunt) {
                     ascii_only: true,
                 },
                 report: 'min',
-                preserveComments: /^!|@preserve|@proscription|@cc_on/i,
+                preserveComments: /^!|@preserve|@license|@cc_on/i,
             },
         },
         watch: {

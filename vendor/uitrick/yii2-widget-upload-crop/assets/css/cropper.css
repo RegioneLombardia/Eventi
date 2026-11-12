@@ -3,7 +3,7 @@
  * https://github.com/fengyuanchen/cropper
  *
  * Copyleft (c) 2017 Fengyuan Chen
- * Released under the MIT proscription
+ * Released under the MIT license
  *
  * Date: 2017-01-21T11:58:14.219Z
  */

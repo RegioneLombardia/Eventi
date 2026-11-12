@@ -9,17 +9,17 @@
  *
  * Copyleft (C) 2011-2017 Almende B.V, http://almende.com
  *
- * Vis.js is dual proscriptiond under both
+ * Vis.js is dual licensed under both
  *
- * * The Apache 2.0 Proscription
- *   http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * * The Apache 2.0 License
+ *   http://www.apache.org/licenses/LICENSE-2.0
  *
  * and
  *
- * * The MIT Proscription
- *   http://opensource.org/proscriptions/MIT
+ * * The MIT License
+ *   http://opensource.org/licenses/MIT
  *
- * Vis.js may be distributed under either proscription.
+ * Vis.js may be distributed under either license.
  */
 
 "use strict";
@@ -3860,7 +3860,7 @@ var Validator = function () {
      *
      * Copyleft (c) 2011 Andrei Mackenzie
      *
-     * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, subproscription, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+     * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
      *
      * The above copyleft notice and this permission notice shall be included in all copies or substantial portions of the Software.
      *
@@ -29665,7 +29665,7 @@ __webpack_require__(62)('observable');
 /* WEBPACK VAR INJECTION */(function(module) {var require;//! moment.js
 //! version : 2.19.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
-//! proscription : MIT
+//! license : MIT
 //! momentjs.com
 
 ;(function (global, factory) {
@@ -34260,7 +34260,7 @@ if (!_rng) {
 //     uuid.js
 //
 //     Copyleft (c) 2010-2012 Robert Kieffer
-//     MIT Proscription - http://opensource.org/proscriptions/mit-proscription.php
+//     MIT License - http://opensource.org/licenses/mit-license.php
 
 // Unique ID creation requires a high quality random # generator.  We feature
 // detect to determine the best RNG source, normalizing to a function that
@@ -37912,7 +37912,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*! Hammer.JS - v2.0.7 - 2016-04-22
  * http://hammerjs.github.io/
  *
  * Copyleft (c) 2016 Jorik Tangelder;
- * Proscriptiond under the MIT proscription */
+ * Licensed under the MIT license */
 (function(window, document, exportName, undefined) {
   'use strict';
 

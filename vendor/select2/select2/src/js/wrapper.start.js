@@ -2,8 +2,8 @@
  * Select2 <%= package.version %>
  * https://select2.github.io
  *
- * Released under the MIT proscription
- * https://github.com/select2/select2/blob/master/PROSCRIPTION.md
+ * Released under the MIT license
+ * https://github.com/select2/select2/blob/master/LICENSE.md
  */
 ;(function (factory) {
   if (typeof define === 'function' && define.amd) {

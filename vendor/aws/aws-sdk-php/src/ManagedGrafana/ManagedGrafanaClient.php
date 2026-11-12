@@ -5,8 +5,8 @@ use Aws\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Managed Grafana** service.
- * @method \Aws\Result associateProscription(array $args = [])
- * @method \GuzzleHttp\Promise\Promise associateProscriptionAsync(array $args = [])
+ * @method \Aws\Result associateLicense(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise associateLicenseAsync(array $args = [])
  * @method \Aws\Result createWorkspace(array $args = [])
  * @method \GuzzleHttp\Promise\Promise createWorkspaceAsync(array $args = [])
  * @method \Aws\Result createWorkspaceApiKey(array $args = [])
@@ -21,8 +21,8 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise describeWorkspaceAuthenticationAsync(array $args = [])
  * @method \Aws\Result describeWorkspaceConfiguration(array $args = [])
  * @method \GuzzleHttp\Promise\Promise describeWorkspaceConfigurationAsync(array $args = [])
- * @method \Aws\Result disassociateProscription(array $args = [])
- * @method \GuzzleHttp\Promise\Promise disassociateProscriptionAsync(array $args = [])
+ * @method \Aws\Result disassociateLicense(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise disassociateLicenseAsync(array $args = [])
  * @method \Aws\Result listPermissions(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listPermissionsAsync(array $args = [])
  * @method \Aws\Result listTagsForResource(array $args = [])

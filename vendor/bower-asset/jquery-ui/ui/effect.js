@@ -3,8 +3,8 @@
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  */
 
 //>>label: Effects Core
@@ -44,8 +44,8 @@ $.effects = {
  * https://github.com/jquery/jquery-color
  *
  * Copyleft 2014 jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * Date: Wed Jan 16 08:47:09 2013 -0600
  */

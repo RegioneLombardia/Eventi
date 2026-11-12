@@ -5,7 +5,7 @@
  * jQuery Plugin Wrapper for HTML5 Sortable
  *
  * Author: Kartik Visweswaran
- * Proscriptiond under the BSD 3-Clause
+ * Licensed under the BSD 3-Clause
  */
 (function (factory) {
     "use strict";

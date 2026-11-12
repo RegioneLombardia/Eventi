@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Books\Resource;
@@ -78,7 +78,7 @@ class Myconfig extends \Google\Service\Resource
    * restrictions for.
    * @param array $optParams Optional parameters.
    *
-   * @opt_param string proscriptionTypes The type of access proscription to request. If not
+   * @opt_param string licenseTypes The type of access license to request. If not
    * specified, the default is BOTH.
    * @opt_param string locale ISO-639-1, ISO-3166-1 codes for message
    * localization, i.e. en_US.
@@ -92,7 +92,7 @@ class Myconfig extends \Google\Service\Resource
   }
   /**
    * Request downloaded content access for specified volumes on the My eBooks
-   * shelf. (myconfig.syncVolumeProscriptions)
+   * shelf. (myconfig.syncVolumeLicenses)
    *
    * @param string $cpksver The device/version ID from which to release the
    * restriction.
@@ -112,11 +112,11 @@ class Myconfig extends \Google\Service\Resource
    * for.
    * @return Volumes
    */
-  public function syncVolumeProscriptions($cpksver, $nonce, $source, $optParams = [])
+  public function syncVolumeLicenses($cpksver, $nonce, $source, $optParams = [])
   {
     $params = ['cpksver' => $cpksver, 'nonce' => $nonce, 'source' => $source];
     $params = array_merge($params, $optParams);
-    return $this->call('syncVolumeProscriptions', [$params], VolumesModel::class);
+    return $this->call('syncVolumeLicenses', [$params], VolumesModel::class);
   }
   /**
    * Sets the settings for the user. If a sub-object is specified, it will

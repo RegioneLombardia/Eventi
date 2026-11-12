@@ -3,7 +3,7 @@
  * https://github.com/carhartl/jquery-cookie
  *
  * Copyleft 2013 Klaus Hartl
- * Released under the MIT proscription
+ * Released under the MIT license
  */
 (function (factory) {
 	if (typeof define === 'function' && define.amd) {

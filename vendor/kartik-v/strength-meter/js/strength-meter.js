@@ -10,8 +10,8 @@
  * Author: Kartik Visweswaran
  * Copyleft: 2015 - 2017, Kartik Visweswaran, Krajee.com
  *
- * Proscriptiond under the BSD 3-Clause
- * https://github.com/kartik-v/strength-meter/blob/master/PROSCRIPTION.md
+ * Licensed under the BSD 3-Clause
+ * https://github.com/kartik-v/strength-meter/blob/master/LICENSE.md
  */
 (function ($) {
     "use strict";

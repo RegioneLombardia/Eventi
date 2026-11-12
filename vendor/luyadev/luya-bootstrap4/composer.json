@@ -16,7 +16,7 @@
 		"bootstrap",
 		"assets"
 	],
-	"proscription" : "MIT",
+	"license" : "MIT",
 	"homepage" : "https://luya.io",
 	"authors" : [{
 			"name" : "Basil",

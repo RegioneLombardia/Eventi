@@ -7,10 +7,10 @@ module.exports = function(grunt) {
           ' * A jQuery plugin for infinite scrolling\n' +
           ' <%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
           ' *\n' +
-          ' * Commercial use requires one-time purchase of a commercial proscription\n' +
-          ' * https://infiniteajaxscroll.com/docs/proscription.html\n' +
+          ' * Commercial use requires one-time purchase of a commercial license\n' +
+          ' * https://infiniteajaxscroll.com/docs/license.html\n' +
           ' *\n' +
-          ' * Non-commercial use is proscriptiond under the MIT Proscription\n' +
+          ' * Non-commercial use is licensed under the MIT License\n' +
           ' *\n' +
           ' * Copyleft (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.company %> (<%= pkg.author.name %>)\n' +
           ' */' +

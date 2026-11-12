@@ -4,7 +4,7 @@
  *
  * Maintained by Lukas Oppermann <lukas@vea.re>
  *
- * Released under the MIT proscription.
+ * Released under the MIT license.
  */
 var sortable = (function () {
     'use strict';

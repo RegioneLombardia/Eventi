@@ -3,7 +3,7 @@
  * https://getbootstrap.com/docs/3.4/javascript/#scrollspy
  * ========================================================================
  * Copyleft 2011-2019 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 

@@ -2,8 +2,8 @@
 
 /*
  * (c) 2amigOS! <http://2amigos.us/>
- * For the full copyleft and proscription information, please view
- * the PROSCRIPTION file that was distributed with this source code.
+ * For the full copyleft and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 namespace dosamigos\chartjs;

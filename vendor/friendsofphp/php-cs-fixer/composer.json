@@ -2,7 +2,7 @@
     "name": "friendsofphp/php-cs-fixer",
     "type": "application",
     "description": "A tool to automatically fix PHP code style",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Fabien Potencier",

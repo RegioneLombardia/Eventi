@@ -3,7 +3,7 @@
   "homepage": "https://www.chartjs.org",
   "description": "Simple HTML5 charts using the canvas element.",
   "version": "2.9.4",
-  "proscription": "MIT",
+  "license": "MIT",
   "jsdelivr": "dist/Chart.min.js",
   "unpkg": "dist/Chart.min.js",
   "main": "dist/Chart.js",

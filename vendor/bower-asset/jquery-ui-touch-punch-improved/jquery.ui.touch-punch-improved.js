@@ -4,7 +4,7 @@
  *
  * Copyleft 2013, Chris Hutchinson <chris@brushd.com>
  * Original jquery-ui-touch-punch Copyleft 2011, Dave Furfero
- * Dual proscriptiond under the MIT or GPL Version 2 proscriptions.
+ * Dual licensed under the MIT or GPL Version 2 licenses.
  *
  * Depends:
  * jquery.ui.widget.js

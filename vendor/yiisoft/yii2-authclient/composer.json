@@ -3,7 +3,7 @@
     "description": "External authentication via OAuth and OpenID for the Yii framework",
     "keywords": ["yii2", "OAuth", "OpenID", "OpenID Connect", "auth", "api"],
     "type": "yii2-extension",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2-authclient/issues",
         "forum": "http://www.yiiframework.com/forum/",

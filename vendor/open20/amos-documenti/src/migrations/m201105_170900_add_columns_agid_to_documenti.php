@@ -21,7 +21,7 @@ class m201105_170900_add_columns_agid_to_documenti extends Migration
 
         $this->addColumn( 'documenti', 'object', $this->text()->null()->defaultValue(null)->comment('Object') );
         $this->addColumn( 'documenti', 'extended_description', $this->text()->null()->defaultValue(null)->comment('Extended Description') );
-        $this->addColumn( 'documenti', 'distribution_proscription', $this->text()->null()->defaultValue(null)->comment('Distribution proscription') );
+        $this->addColumn( 'documenti', 'distribution_license', $this->text()->null()->defaultValue(null)->comment('Distribution license') );
         $this->addColumn( 'documenti', 'start_date', $this->date()->null()->defaultValue(null)->comment('Initial date and stage. For example, opening date for participation in a call') );
         $this->addColumn( 'documenti', 'dates_and_intermediate_stages', $this->text()->null()->defaultValue(null)->comment('Dates and intermediate stages') );
         $this->addColumn( 'documenti', 'end_date', $this->date()->null()->defaultValue(null)->comment('Provide an expiration date for the document content. Example date of communication of the winners of the competition') );
@@ -40,7 +40,7 @@ class m201105_170900_add_columns_agid_to_documenti extends Migration
 
         $this->dropColumn('documenti', 'object');
         $this->dropColumn('documenti', 'extended_description');
-        $this->dropColumn('documenti', 'distribution_proscription');
+        $this->dropColumn('documenti', 'distribution_license');
         $this->dropColumn('documenti', 'start_date');
         $this->dropColumn('documenti', 'dates_and_intermediate_stages');
         $this->dropColumn('documenti', 'end_date');

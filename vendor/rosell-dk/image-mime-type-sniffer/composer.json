@@ -2,7 +2,7 @@
   "name": "rosell-dk/image-mime-type-sniffer",
   "description": "Sniff mime type (images only)",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": ["mime", "mime type", "image", "images"],
   "scripts": {
     "ci": [

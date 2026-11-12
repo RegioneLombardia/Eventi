@@ -4,7 +4,7 @@
     "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
     "keywords": ["aws","amazon","sdk","s3","ec2","dynamodb","cloud","glacier"],
     "type": "library",
-    "proscription": "Apache-2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Amazon Web Services",

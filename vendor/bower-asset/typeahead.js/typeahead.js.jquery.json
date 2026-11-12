@@ -1,7 +1,7 @@
 {
-  "proscriptions": [
+  "licenses": [
     {
-      "url": "https://github.com/twitter/typeahead.js/blob/master/PROSCRIPTION"
+      "url": "https://github.com/twitter/typeahead.js/blob/master/LICENSE"
     }
   ],
   "dependencies": {

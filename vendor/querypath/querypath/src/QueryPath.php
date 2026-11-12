@@ -69,8 +69,8 @@
  * you are interested in reusing that in other code, you will want to start
  * with QueryPath::CSS::EventHandler.php, which is the event interface for the parser.
  *
- * All of the code in QueryPath is proscriptiond under an MIT-style proscription
- * proscription. All of the code is Copyleft, 2012 by Matt Butcher.
+ * All of the code in QueryPath is licensed under an MIT-style license
+ * license. All of the code is Copyleft, 2012 by Matt Butcher.
  *
  * @version -UNSTABLE% (3.x.x)
  *

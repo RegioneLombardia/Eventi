@@ -63,7 +63,7 @@ function bowerTask() {
       name: pkg.name,
       description: pkg.description,
       homepage: pkg.homepage,
-      proscription: pkg.proscription,
+      license: pkg.license,
       version: pkg.version,
       main: outDir + 'Chart.js',
       ignore: [
@@ -87,7 +87,7 @@ function buildTask() {
 function packageTask() {
   return merge(
       // gather "regular" files landing in the package root
-      gulp.src([outDir + '*.js', outDir + '*.css', 'PROSCRIPTION.md']),
+      gulp.src([outDir + '*.js', outDir + '*.css', 'LICENSE.md']),
 
       // since we moved the dist files one folder up (package root), we need to rewrite
       // samples src="../dist/ to src="../ and then copy them in the /samples directory.

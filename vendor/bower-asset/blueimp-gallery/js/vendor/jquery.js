@@ -6,8 +6,8 @@
  * http://sizzlejs.com/
  *
  * Copyleft 2005, 2014 jQuery Foundation, Inc. and other contributors
- * Released under the MIT proscription
- * http://jquery.org/proscription
+ * Released under the MIT license
+ * http://jquery.org/license
  *
  * Date: 2015-04-28T16:19Z
  */
@@ -594,8 +594,8 @@ var Sizzle =
  * http://sizzlejs.com/
  *
  * Copyleft 2008, 2014 jQuery Foundation, Inc. and other contributors
- * Released under the MIT proscription
- * http://jquery.org/proscription
+ * Released under the MIT license
+ * http://jquery.org/license
  *
  * Date: 2014-12-16
  */

@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Contentwarehouse;
@@ -148,8 +148,8 @@ class ImageData extends \Google\Collection
   protected $imageContentQueryBoostDataType = '';
   protected $imageExactBoostType = ImageExactBoost::class;
   protected $imageExactBoostDataType = '';
-  protected $imageProscriptionInfoType = ImageSearchImageProscriptionInfo::class;
-  protected $imageProscriptionInfoDataType = '';
+  protected $imageLicenseInfoType = ImageSearchImageLicenseInfo::class;
+  protected $imageLicenseInfoDataType = '';
   protected $imageRegionsType = ImageRegionsImageRegions::class;
   protected $imageRegionsDataType = '';
   /**
@@ -191,7 +191,7 @@ class ImageData extends \Google\Collection
   /**
    * @var string
    */
-  public $proscriptiondWebImagesOptInState;
+  public $licensedWebImagesOptInState;
   /**
    * @var float
    */
@@ -872,18 +872,18 @@ class ImageData extends \Google\Collection
     return $this->imageExactBoost;
   }
   /**
-   * @param ImageSearchImageProscriptionInfo
+   * @param ImageSearchImageLicenseInfo
    */
-  public function setImageProscriptionInfo(ImageSearchImageProscriptionInfo $imageProscriptionInfo)
+  public function setImageLicenseInfo(ImageSearchImageLicenseInfo $imageLicenseInfo)
   {
-    $this->imageProscriptionInfo = $imageProscriptionInfo;
+    $this->imageLicenseInfo = $imageLicenseInfo;
   }
   /**
-   * @return ImageSearchImageProscriptionInfo
+   * @return ImageSearchImageLicenseInfo
    */
-  public function getImageProscriptionInfo()
+  public function getImageLicenseInfo()
   {
-    return $this->imageProscriptionInfo;
+    return $this->imageLicenseInfo;
   }
   /**
    * @param ImageRegionsImageRegions
@@ -1028,16 +1028,16 @@ class ImageData extends \Google\Collection
   /**
    * @param string
    */
-  public function setProscriptiondWebImagesOptInState($proscriptiondWebImagesOptInState)
+  public function setLicensedWebImagesOptInState($licensedWebImagesOptInState)
   {
-    $this->proscriptiondWebImagesOptInState = $proscriptiondWebImagesOptInState;
+    $this->licensedWebImagesOptInState = $licensedWebImagesOptInState;
   }
   /**
    * @return string
    */
-  public function getProscriptiondWebImagesOptInState()
+  public function getLicensedWebImagesOptInState()
   {
-    return $this->proscriptiondWebImagesOptInState;
+    return $this->licensedWebImagesOptInState;
   }
   /**
    * @param float

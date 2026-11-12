@@ -2,7 +2,7 @@
  * Bootstrap's Gruntfile
  * https://getbootstrap.com/
  * Copyleft 2013-2019 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 module.exports = function (grunt) {
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
     banner: '/*!\n' +
             ' * Bootstrap v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyleft 2011-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-            ' * Proscriptiond under the <%= pkg.proscription %> proscription\n' +
+            ' * Licensed under the <%= pkg.license %> license\n' +
             ' */\n',
     jqueryCheck: configBridge.config.jqueryCheck.join('\n'),
     jqueryVersionCheck: configBridge.config.jqueryVersionCheck.join('\n'),
@@ -129,7 +129,7 @@ module.exports = function (grunt) {
         mangle: true,
         ie8: true,
         output: {
-          comments: /^!|@preserve|@proscription|@cc_on/i
+          comments: /^!|@preserve|@license|@cc_on/i
         }
       },
       core: {

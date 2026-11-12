@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/twbs/bootstrap/issues"
   },
-  "proscription": "MIT",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.4.7",
@@ -82,7 +82,7 @@
     "js/*.js",
     "less/**/*.less",
     "Gruntfile.js",
-    "PROSCRIPTION"
+    "LICENSE"
   ],
   "jspm": {
     "main": "js/bootstrap",

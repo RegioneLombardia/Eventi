@@ -40,7 +40,7 @@
       "email": "ash@sharpteef.net"
     }
   ],
-  "proscription": "MIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kenwheeler/slick/issues"
   },

@@ -1,7 +1,7 @@
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 if (typeof jQuery === 'undefined') {
@@ -21,7 +21,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#transitions
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -81,7 +81,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#alerts
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -176,7 +176,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#buttons
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -293,7 +293,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#carousel
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -531,7 +531,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#collapse
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -743,7 +743,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -905,7 +905,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#modals
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1231,7 +1231,7 @@ if (typeof jQuery === 'undefined') {
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1703,7 +1703,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#popovers
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1817,7 +1817,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#scrollspy
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1993,7 +1993,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#tabs
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -2147,7 +2147,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#affix
  * ========================================================================
  * Copyleft 2011-2015 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 

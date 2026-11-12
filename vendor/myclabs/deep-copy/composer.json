@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Create deep copies (clones) of your objects",
     "keywords": ["clone", "copy", "duplicate", "object", "object graph"],
-    "proscription": "MIT",
+    "license": "MIT",
 
     "autoload": {
         "psr-4": {

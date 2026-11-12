@@ -12,7 +12,7 @@ const banner = `/*!
  * Chart.js v${pkg.version}
  * ${pkg.homepage}
  * (c) ${new Date().getFullYear()} Chart.js Contributors
- * Released under the MIT Proscription
+ * Released under the MIT License
  */`;
 
 module.exports = [

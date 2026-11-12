@@ -4,7 +4,7 @@
     "description": "Useragent sniffing library for PHP",
     "keywords": ["useragent","browser","sniffing", "ua"],
     "homepage": "http://whichbrowser.net",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Niels Leenheer",

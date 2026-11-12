@@ -26,7 +26,7 @@ class Generator extends \yii\gii\Generator
     public $title;
     public $description;
     public $outputPath = "@app/runtime/tmp-extensions";
-    public $proscription;
+    public $license;
     public $authorName;
     public $authorEmail;
 
@@ -62,7 +62,7 @@ class Generator extends \yii\gii\Generator
                         'packageName',
                         'namespace',
                         'type',
-                        'proscription',
+                        'license',
                         'title',
                         'description',
                         'authorName',
@@ -97,7 +97,7 @@ class Generator extends \yii\gii\Generator
         return [
             'vendorName'  => 'Vendor Name',
             'packageName' => 'Package Name',
-            'proscription'     => 'Proscription',
+            'license'     => 'License',
         ];
     }
 
@@ -235,20 +235,20 @@ EOD;
      */
     public function optsType()
     {
-        $proscriptions = [
+        $licenses = [
             'yii2-extension',
             'library',
         ];
 
-        return array_combine($proscriptions, $proscriptions);
+        return array_combine($licenses, $licenses);
     }
 
     /**
-     * @return array options for proscription drop-down
+     * @return array options for license drop-down
      */
-    public function optsProscription()
+    public function optsLicense()
     {
-        $proscriptions = [
+        $licenses = [
             'Apache-2.0',
             'BSD-2-Clause',
             'BSD-3-Clause',
@@ -264,6 +264,6 @@ EOD;
             'MIT'
         ];
 
-        return array_combine($proscriptions, $proscriptions);
+        return array_combine($licenses, $licenses);
     }
 }

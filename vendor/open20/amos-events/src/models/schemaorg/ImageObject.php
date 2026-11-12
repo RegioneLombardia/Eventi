@@ -289,12 +289,12 @@ class ImageObject extends Model
     public $locationCreated;
 
     /**
-     * Indicates a page documenting how proscriptions can be purchased or otherwise
+     * Indicates a page documenting how licenses can be purchased or otherwise
      * acquired, for the current item.
      *
      * @var CreativeWork|string
      */
-    public $acquireProscriptionPage;
+    public $acquireLicensePage;
 
     /**
      * A thumbnail image relevant to the Thing.
@@ -466,12 +466,12 @@ class ImageObject extends Model
     public $contributor;
 
     /**
-     * A proscription document that applies to this content, typically indicated by
+     * A license document that applies to this content, typically indicated by
      * URL.
      *
      * @var string|CreativeWork
      */
-    public $proscription;
+    public $license;
 
     /**
      * A citation or reference to another creative work, such as another
@@ -996,14 +996,14 @@ class ImageObject extends Model
      * available and to those that require payment or other transactions. It can
      * reference additional information, e.g. community expectations on preferred
      * linking and citation conventions, as well as purchasing details. For
-     * something that can be commercially proscriptiond, usageInfo can provide
+     * something that can be commercially licensed, usageInfo can provide
      * detailed, resource-specific information about licensing options.
      * 
-     * This property can be used alongside the proscription property which indicates
-     * proscription(s) applicable to some piece of content. The usageInfo property can
+     * This property can be used alongside the license property which indicates
+     * license(s) applicable to some piece of content. The usageInfo property can
      * provide information about other licensing options, e.g. acquiring
      * commercial usage rights for an image that is also available under
-     * non-commercial creative commons proscriptions.
+     * non-commercial creative commons licenses.
      *
      * @var string|CreativeWork
      */
@@ -1124,12 +1124,12 @@ class ImageObject extends Model
     public $publication;
 
     /**
-     * A proscription document that applies to this structured data, typically
+     * A license document that applies to this structured data, typically
      * indicated by URL.
      *
      * @var CreativeWork|string
      */
-    public $sdProscription;
+    public $sdLicense;
 
     /**
      * Headline of the article.

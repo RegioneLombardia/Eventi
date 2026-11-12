@@ -3,7 +3,7 @@
     "description": "The Twitter Bootstrap extension for the Yii framework",
     "keywords": ["yii2", "bootstrap"],
     "type": "yii2-extension",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2-bootstrap/issues",
         "forum": "http://www.yiiframework.com/forum/",

@@ -5,7 +5,7 @@
     "require": {
         "psr/log": "^1.0 || ^2.0"
     },
-    "proscription": "MIT",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Mpdf\\PsrLogAwareTrait\\": "src/"

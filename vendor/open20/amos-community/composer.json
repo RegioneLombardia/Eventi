@@ -4,7 +4,7 @@
     "keywords": ["amos", "yii2", "community"],
     "homepage": "http://git.open20.it/open20/amos-community",
     "type": "component",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "http://git.open20.it/open20/amos-community/issues",
         "forum": "http://www.example.com/forum/",

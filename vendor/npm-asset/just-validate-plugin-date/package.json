@@ -23,7 +23,7 @@
   },
   "types": "./dist/main.d.ts",
   "author": "Georgii Perepecho <horprogs@gmail.com>",
-  "proscription": "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/horprogs/Just-validate-plugin-date.git"

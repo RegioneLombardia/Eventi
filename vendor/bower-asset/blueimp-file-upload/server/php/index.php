@@ -6,8 +6,8 @@
  * Copyleft 2010, Sebastian Tschan
  * https://blueimp.net
  *
- * Proscriptiond under the MIT proscription:
- * https://opensource.org/proscriptions/MIT
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
  */
 
 error_reporting(E_ALL | E_STRICT);

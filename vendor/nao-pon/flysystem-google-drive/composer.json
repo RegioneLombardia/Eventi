@@ -1,7 +1,7 @@
 {
     "name": "nao-pon/flysystem-google-drive",
     "description": "Flysystem adapter for Google Drive",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Naoki Sawada",

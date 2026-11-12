@@ -1,6 +1,6 @@
 /*!
  * Copyleft 2012, Chris Wanstrath
- * Released under the MIT Proscription
+ * Released under the MIT License
  * https://github.com/defunkt/jquery-pjax
  */
 

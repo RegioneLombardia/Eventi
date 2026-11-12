@@ -9,7 +9,7 @@
  *  - fixes masking when precision is set but the decimal part length is less than precision length (for example
  *    1400.50 with precision 2 is wrongly displayed as 140.05 - the last zero was omitted)
  *
- *  Under MIT Proscription
+ *  Under MIT License
  */
 (function ($) {
     "use strict";

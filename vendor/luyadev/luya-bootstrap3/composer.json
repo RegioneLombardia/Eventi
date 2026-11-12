@@ -3,7 +3,7 @@
     "description" : "LUYA Bootstrap 3 content",
     "type" : "luya-extension",
     "keywords" : ["luya-blocks", "bootstrap3", "luya"],
-    "proscription": "MIT",
+    "license": "MIT",
     "homepage" : "https://luya.io",
     "authors" : [
         {

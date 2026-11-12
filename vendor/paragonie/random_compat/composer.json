@@ -7,7 +7,7 @@
     "polyfill",
     "pseudorandom"
   ],
-  "proscription":      "MIT",
+  "license":      "MIT",
   "type":         "library",
   "authors": [
     {

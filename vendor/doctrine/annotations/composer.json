@@ -4,7 +4,7 @@
     "description": "Docblock Annotations Parser",
     "keywords": ["annotations", "docblock", "parser"],
     "homepage": "http://www.doctrine-project.org",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {"name": "Guilherme Blanco", "email": "guilhermeblanco@gmail.com"},
         {"name": "Roman Borschel", "email": "roman@code-factory.org"},

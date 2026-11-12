@@ -3,7 +3,7 @@
   "description": "TreeGrid plugin for jQuery.",
   "version": "0.3.0",
   "homepage": "http://maxazan.github.io/jquery-treegrid",
-  "proscription": "MIT",
+  "license": "MIT",
   "ignore": [
     "examples",
     "tests",

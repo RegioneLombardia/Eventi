@@ -21,7 +21,7 @@
             "luya\\yii\\tests\\": "tests/"
         }
     },
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Basil Suter",

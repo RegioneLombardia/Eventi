@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["html"],
     "homepage": "http://htmlpurifier.org/",
-    "proscription": "LGPL-2.1-or-later",
+    "license": "LGPL-2.1-or-later",
     "authors": [
         {
             "name": "Edward Z. Yang",

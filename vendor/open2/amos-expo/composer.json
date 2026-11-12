@@ -3,7 +3,7 @@
     "description": "Yii2 extension for working with Expo push notifications",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","expo","push-notification","exponent"],
-    "proscription": "MIT",
+    "license": "MIT",
     "support": {
         "issues": "https://github.com/open20/amos-expo/issues?state=open",
         "source": "https://github.com/open20/amos-expo"

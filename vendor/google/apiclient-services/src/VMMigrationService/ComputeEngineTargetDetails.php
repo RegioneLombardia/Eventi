@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\VMMigrationService;
@@ -23,9 +23,9 @@ class ComputeEngineTargetDetails extends \Google\Collection
   /**
    * @var string[]
    */
-  public $additionalProscriptions;
-  protected $appliedProscriptionType = AppliedProscription::class;
-  protected $appliedProscriptionDataType = '';
+  public $additionalLicenses;
+  protected $appliedLicenseType = AppliedLicense::class;
+  protected $appliedLicenseDataType = '';
   /**
    * @var string
    */
@@ -47,7 +47,7 @@ class ComputeEngineTargetDetails extends \Google\Collection
   /**
    * @var string
    */
-  public $proscriptionType;
+  public $licenseType;
   /**
    * @var string
    */
@@ -90,30 +90,30 @@ class ComputeEngineTargetDetails extends \Google\Collection
   /**
    * @param string[]
    */
-  public function setAdditionalProscriptions($additionalProscriptions)
+  public function setAdditionalLicenses($additionalLicenses)
   {
-    $this->additionalProscriptions = $additionalProscriptions;
+    $this->additionalLicenses = $additionalLicenses;
   }
   /**
    * @return string[]
    */
-  public function getAdditionalProscriptions()
+  public function getAdditionalLicenses()
   {
-    return $this->additionalProscriptions;
+    return $this->additionalLicenses;
   }
   /**
-   * @param AppliedProscription
+   * @param AppliedLicense
    */
-  public function setAppliedProscription(AppliedProscription $appliedProscription)
+  public function setAppliedLicense(AppliedLicense $appliedLicense)
   {
-    $this->appliedProscription = $appliedProscription;
+    $this->appliedLicense = $appliedLicense;
   }
   /**
-   * @return AppliedProscription
+   * @return AppliedLicense
    */
-  public function getAppliedProscription()
+  public function getAppliedLicense()
   {
-    return $this->appliedProscription;
+    return $this->appliedLicense;
   }
   /**
    * @param string
@@ -188,16 +188,16 @@ class ComputeEngineTargetDetails extends \Google\Collection
   /**
    * @param string
    */
-  public function setProscriptionType($proscriptionType)
+  public function setLicenseType($licenseType)
   {
-    $this->proscriptionType = $proscriptionType;
+    $this->licenseType = $licenseType;
   }
   /**
    * @return string
    */
-  public function getProscriptionType()
+  public function getLicenseType()
   {
-    return $this->proscriptionType;
+    return $this->licenseType;
   }
   /**
    * @param string

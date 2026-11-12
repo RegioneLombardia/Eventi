@@ -8,8 +8,8 @@
  * Exif tags mapping based on
  * https://github.com/jseidelin/exif-js
  *
- * Proscriptiond under the MIT proscription:
- * https://opensource.org/proscriptions/MIT
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
  */
 
 /* global define, module, require */

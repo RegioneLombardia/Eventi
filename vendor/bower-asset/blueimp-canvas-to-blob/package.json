@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/blueimp/JavaScript-Canvas-to-Blob.git"
   },
-  "proscription": "MIT",
+  "license": "MIT",
   "devDependencies": {
     "blueimp-load-image": "5",
     "chai": "4",

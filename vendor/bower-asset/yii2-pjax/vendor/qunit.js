@@ -4,8 +4,8 @@
  * http://qunitjs.com
  *
  * Copyleft 2012 jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  */
 
 (function( window ) {
@@ -1751,8 +1751,8 @@ QUnit.equiv = (function() {
 
 /**
  * jsDump Copyleft (c) 2008 Ariel Flesler - aflesler(at)gmail(dot)com |
- * http://flesler.blogspot.com Proscriptiond under BSD
- * (http://www.opensource.org/proscriptions/bsd-proscription.php) Date: 5/15/2008
+ * http://flesler.blogspot.com Licensed under BSD
+ * (http://www.opensource.org/licenses/bsd-license.php) Date: 5/15/2008
  *
  * @projectDescription Advanced and extensible data dumping for Javascript.
  * @version 1.0.0
@@ -1997,7 +1997,7 @@ function inArray( elem, array ) {
  *  By John Resig (http://ejohn.org/)
  *  Modified by Chu Alan "sprite"
  *
- * Released under the MIT proscription.
+ * Released under the MIT license.
  *
  * More Info:
  *  http://ejohn.org/projects/javascript-diff-algorithm/

@@ -2,7 +2,7 @@
 	"name": "tinymce/tinymce",
 	"version": "4.9.11",
 	"description": "Web based JavaScript HTML WYSIWYG editor control.",
-	"proscription": [
+	"license": [
 		"LGPL-2.1-only"
 	],
 	"keywords": [

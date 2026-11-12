@@ -1,7 +1,7 @@
 /* perfect-scrollbar v0.6.7 */
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -49,7 +49,7 @@ module.exports = mountJQuery;
 
 },{"../main":7,"../plugin/instances":18}],2:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -96,7 +96,7 @@ exports.list = function (element) {
 
 },{}],3:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -185,7 +185,7 @@ module.exports = DOM;
 
 },{}],4:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -261,7 +261,7 @@ module.exports = EventManager;
 
 },{}],5:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -279,7 +279,7 @@ module.exports = (function () {
 
 },{}],6:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -365,7 +365,7 @@ exports.env = {
 
 },{"./class":2,"./dom":3}],7:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -381,7 +381,7 @@ module.exports = {
 
 },{"./plugin/destroy":9,"./plugin/initialize":17,"./plugin/update":21}],8:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -403,7 +403,7 @@ module.exports = {
 
 },{}],9:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -430,7 +430,7 @@ module.exports = function (element) {
 
 },{"../lib/dom":3,"../lib/helper":6,"./instances":18}],10:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -495,7 +495,7 @@ module.exports = function (element) {
 
 },{"../../lib/helper":6,"../instances":18,"../update-geometry":19,"../update-scroll":20}],11:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -603,7 +603,7 @@ module.exports = function (element) {
 
 },{"../../lib/dom":3,"../../lib/helper":6,"../instances":18,"../update-geometry":19,"../update-scroll":20}],12:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -730,7 +730,7 @@ module.exports = function (element) {
 
 },{"../../lib/helper":6,"../instances":18,"../update-geometry":19,"../update-scroll":20}],13:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -877,7 +877,7 @@ module.exports = function (element) {
 
 },{"../../lib/helper":6,"../instances":18,"../update-geometry":19,"../update-scroll":20}],14:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -897,7 +897,7 @@ module.exports = function (element) {
 
 },{"../instances":18,"../update-geometry":19}],15:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1011,7 +1011,7 @@ module.exports = function (element) {
 
 },{"../../lib/helper":6,"../instances":18,"../update-geometry":19,"../update-scroll":20}],16:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1184,7 +1184,7 @@ module.exports = function (element, supportsTouch, supportsIePointer) {
 
 },{"../instances":18,"../update-geometry":19,"../update-scroll":20}],17:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1233,7 +1233,7 @@ module.exports = function (element, userSettings) {
 
 },{"../lib/class":2,"../lib/helper":6,"./handler/click-rail":10,"./handler/drag-scrollbar":11,"./handler/keyboard":12,"./handler/mouse-wheel":13,"./handler/native-scroll":14,"./handler/selection":15,"./handler/touch":16,"./instances":18,"./update-geometry":19}],18:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1342,7 +1342,7 @@ exports.get = function (element) {
 
 },{"../lib/dom":3,"../lib/event-manager":4,"../lib/guid":5,"../lib/helper":6,"./default-setting":8}],19:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1465,7 +1465,7 @@ module.exports = function (element) {
 
 },{"../lib/class":2,"../lib/dom":3,"../lib/helper":6,"./instances":18,"./update-scroll":20}],20:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 
@@ -1572,7 +1572,7 @@ module.exports = function (element, axis, value) {
 
 },{"./instances":18}],21:[function(require,module,exports){
 /* Copyleft (c) 2015 Hyunje Alex Jun and other contributors
- * Proscriptiond under the MIT Proscription
+ * Licensed under the MIT License
  */
 'use strict';
 

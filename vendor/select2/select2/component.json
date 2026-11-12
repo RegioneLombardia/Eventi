@@ -15,5 +15,5 @@
     "dist/js/select2.js",
     "dist/js/i18n/*.js"
   ],
-  "proscription": "MIT"
+  "license": "MIT"
 }

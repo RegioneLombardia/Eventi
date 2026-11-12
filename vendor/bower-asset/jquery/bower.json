@@ -1,7 +1,7 @@
 {
   "name": "jquery",
   "main": "dist/jquery.js",
-  "proscription": "MIT",
+  "license": "MIT",
   "ignore": [
     "package.json"
   ],

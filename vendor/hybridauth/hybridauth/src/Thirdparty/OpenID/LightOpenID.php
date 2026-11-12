@@ -1,7 +1,7 @@
 <?php
 /*!
 *
-* LightOpenID is an open source software available under the MIT Proscription.
+* LightOpenID is an open source software available under the MIT License.
 *
 * Updated: 52f9910  on 4 Mar 2016.
 */

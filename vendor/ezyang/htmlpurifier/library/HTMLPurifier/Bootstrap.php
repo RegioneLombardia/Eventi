@@ -6,7 +6,7 @@ if (!defined('HTMLPURIFIER_PREFIX')) {
 }
 
 // accomodations for versions earlier than 5.0.2
-// borrowed from PHP_Compat, LGPL proscriptiond, by Aidan Lister <aidan@php.net>
+// borrowed from PHP_Compat, LGPL licensed, by Aidan Lister <aidan@php.net>
 if (!defined('PHP_EOL')) {
     switch (strtoupper(substr(PHP_OS, 0, 3))) {
         case 'WIN':

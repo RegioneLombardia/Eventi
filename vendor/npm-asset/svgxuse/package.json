@@ -20,7 +20,7 @@
     "external"
   ],
   "author": "Keyamoon",
-  "proscription": "MIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Keyamoon/svgxuse/issues"
   },

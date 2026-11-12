@@ -53,7 +53,7 @@ HEAD
 
   Thus the default options now cleanly contain cookie attributes only.
 
-- Removing licensing under GPL Version 2, the plugin is now released under MIT Proscription only
+- Removing licensing under GPL Version 2, the plugin is now released under MIT License only
 (keeping it simple and following the jQuery library itself here).
 
 - Bugfix: Properly handle RFC 2068 quoted cookie values.

@@ -4,7 +4,7 @@
     "keywords": ["amos", "yii2", "report"],
     "homepage": "http://www.open20.it/",
     "type": "component",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4.0",
         "2amigos/yii2-ckeditor-widget": "~1.0",

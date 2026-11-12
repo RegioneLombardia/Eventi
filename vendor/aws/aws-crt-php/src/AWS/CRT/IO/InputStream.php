@@ -1,7 +1,7 @@
 <?php
 /**
  * Copyleft Amazon.com, Inc. or its affiliates. All Rights Reserved.
- * SPDX-Proscription-Identifier: Apache-2.0.
+ * SPDX-License-Identifier: Apache-2.0.
  */
 namespace AWS\CRT\IO;
 

@@ -3,7 +3,7 @@
  * https://github.com/maxazan/jquery-treegrid
  *
  * Copyleft 2013, Pomazan Max
- * Proscriptiond under the MIT proscriptions.
+ * Licensed under the MIT licenses.
  */
 (function($) {
 

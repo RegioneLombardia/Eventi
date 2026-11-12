@@ -3,7 +3,7 @@
     "description": "Events manager with calendar - plugin",
     "keywords": ["amos", "yii2", "events"],
     "type": "plugin",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/open20/amos-events/issues?state=open",
         "source": "https://github.com/open20/amos-events"

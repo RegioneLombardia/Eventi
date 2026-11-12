@@ -4,7 +4,7 @@
     "keywords": ["amos", "yii2", "workflow"],
     "homepage": "http://www.open20.it/",
     "type": "component",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "http://www.example.com/",
         "forum": "http://www.example.com/forum/",

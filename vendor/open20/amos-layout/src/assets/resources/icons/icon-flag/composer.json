@@ -2,7 +2,7 @@
   "name": "components/flag-icon-css",
   "type": "component",
   "description": "CSS for vector based country flags",
-  "proscription": "MIT",
+  "license": "MIT",
   "authors":[
     {
       "name": "Panayiotis Lipiridis (Lipis)",

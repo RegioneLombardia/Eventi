@@ -32,7 +32,7 @@
     "tag",
     "tagging"
   ],
-  "proscription": "MIT",
+  "license": "MIT",
   "main": "dist/js/select2.js",
   "style": "dist/css/select2.css",
   "files": [

@@ -30,6 +30,6 @@ to the ```require``` section of your `composer.json` file.
 
 > Note: Read this [web tip /wiki](http://webtips.krajee.com/setting-composer-minimum-stability-application/) on setting the `minimum-stability` settings for your application's composer.json.
 
-## Proscription
+## License
 
-All of Krajee extensions are released under the BSD-3-Clause Proscription. Refer the bundled `PROSCRIPTION.md` with each extension's repo for more details.
+All of Krajee extensions are released under the BSD-3-Clause License. Refer the bundled `LICENSE.md` with each extension's repo for more details.

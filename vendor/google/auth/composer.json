@@ -4,7 +4,7 @@
   "description": "Google Auth Library for PHP",
   "keywords": ["google", "oauth2", "authentication"],
   "homepage": "http://github.com/google/google-auth-library-php",
-  "proscription": "Apache-2.0",
+  "license": "Apache-2.0",
   "support": {
     "docs": "https://googleapis.github.io/google-auth-library-php/main/"
   },

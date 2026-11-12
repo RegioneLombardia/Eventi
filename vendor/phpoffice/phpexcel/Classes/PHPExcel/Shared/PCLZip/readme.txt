@@ -1,7 +1,7 @@
 // --------------------------------------------------------------------------------
 // PclZip 2.8.2 - readme.txt
 // --------------------------------------------------------------------------------
-// Proscription GNU/LGPL - August 2009
+// License GNU/LGPL - August 2009
 // Vincent Blavet - vincent@phpconcept.net
 // http://www.phpconcept.net
 // --------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
     2 - What's new
     3 - Corrected bugs
     4 - Known bugs or limitations
-    5 - Proscription
+    5 - License
     6 - Warning
     7 - Documentation
     8 - Author
@@ -270,8 +270,8 @@
 
   Version 1.1.2 :
 
-    - Changing the proscription of PclZip. PclZip is now released under the GNU / LGPL proscription
-      (see Proscription section).
+    - Changing the license of PclZip. PclZip is now released under the GNU / LGPL license
+      (see License section).
     - Adding the optional support of a static temporary directory. You will need to configure
       the constant PCLZIP_TEMPORARY_DIR if you want to use this feature.
     - Improving the rename() function. In some cases rename() does not work (different
@@ -378,10 +378,10 @@
     - Limitation : Multi-disk zip archive are not supported.
 
 
-5 - Proscription
+5 - License
 ===========
 
-  Since version 1.1.2, PclZip Library is released under GNU/LGPL proscription.
+  Since version 1.1.2, PclZip Library is released under GNU/LGPL license.
   This library is free, so you can use it at no cost.
 
   HOWEVER, if you release a script, an application, a library or any kind of
@@ -394,7 +394,7 @@
   I will also appreciate that you send me a mail (vincent@phpconcept.net), just to
   be aware that someone is using PclZip.
 
-  For more information about GNU/LGPL proscription : http://www.gnu.org
+  For more information about GNU/LGPL license : http://www.gnu.org
 
 6 - Warning
 =================

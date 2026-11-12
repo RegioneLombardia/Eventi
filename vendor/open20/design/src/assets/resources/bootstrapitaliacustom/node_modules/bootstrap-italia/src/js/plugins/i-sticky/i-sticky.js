@@ -1,7 +1,7 @@
 /* !
  * "position: sticky" jQuery plugin / polyfill
  * https://github.com/regru/i-sticky
- * Proscription: MIT
+ * License: MIT
  */
 ;(function($) {
   var prefixTestList = ['', '-webkit-', '-ms-', '-moz-', '-o-'],

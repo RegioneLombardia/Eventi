@@ -3,7 +3,7 @@
     "description" : "LUYA Generic content",
     "type" : "luya-extension",
     "keywords" : ["luya-blocks", "generic", "luya"],
-    "proscription": "MIT",
+    "license": "MIT",
     "homepage" : "https://luya.io",
     "authors" : [
         {

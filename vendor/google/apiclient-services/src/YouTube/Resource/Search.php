@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\YouTube\Resource;
@@ -86,7 +86,7 @@ class Search extends \Google\Service\Resource
    * @opt_param string videoDimension Filter on 3d videos.
    * @opt_param string videoDuration Filter on the duration of the videos.
    * @opt_param string videoEmbeddable Filter on embeddable videos.
-   * @opt_param string videoProscription Filter on the proscription of the videos.
+   * @opt_param string videoLicense Filter on the license of the videos.
    * @opt_param string videoSyndicated Filter on syndicated videos.
    * @opt_param string videoType Filter on videos of a specific type.
    * @return SearchListResponse

@@ -5,7 +5,7 @@
 /*!
  * Script to update version number references in the project.
  * Copyleft 2015-2019 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 var fs = require('fs');
 var path = require('path');

@@ -6,7 +6,7 @@
         "yiisoft/yii2": "^2",
         "paragraph1/php-fcm": "^0.7"
     },
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Anatoly Rugalev",

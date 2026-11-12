@@ -4,7 +4,7 @@
     "description": "Swiftmailer, free feature-rich PHP mailer",
     "keywords": ["mail","mailer","email"],
     "homepage": "https://swiftmailer.symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Chris Corbyn"

@@ -8,7 +8,7 @@
         "fpdi",
         "fpdf"
     ],
-    "proscription": "MIT",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "setasign\\Fpdi\\": "src/"

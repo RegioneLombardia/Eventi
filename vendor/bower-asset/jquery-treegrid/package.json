@@ -27,7 +27,7 @@
         "ui"
     ],
     "author": "Maksym Pomazan",
-    "proscription": "MIT",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/maxazan/jquery-treegrid/issues"
     },

@@ -11,7 +11,7 @@
     "geolocation"
   ],
   "homepage": "https://github.com/giggsey/libphonenumber-for-php",
-  "proscription": "Apache-2.0",
+  "license": "Apache-2.0",
   "support": {
     "source": "https://github.com/giggsey/libphonenumber-for-php",
     "issues": "https://github.com/giggsey/libphonenumber-for-php/issues"

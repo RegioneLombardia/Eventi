@@ -1,8 +1,8 @@
-This proscription is derived from the Bigelow & Holmes Font Proscription
-found at http://www.xfree86.org/current/PROSCRIPTION2.html
+This license is derived from the Bigelow & Holmes Font License
+found at http://www.xfree86.org/current/LICENSE2.html
 
 The following reasonable modifications have been made to the
-Bigelow & Holmes Font Proscription:
+Bigelow & Holmes Font License:
 
 * All references to Luxi have been replaced with Meltho
 
@@ -25,7 +25,7 @@ Permission is hereby granted, free of charge, to any person
 obtaining a copy of these Fonts and associated documentation 
 files (the "Font Software"), to deal in the Font Software, 
 including without limitation the rights to use, copy, merge, 
-publish, distribute, subproscription, and/or sell copies of the 
+publish, distribute, sublicense, and/or sell copies of the 
 Font Software, and to permit persons to whom the Font Software 
 is furnished to do so, subject to the following conditions:
 
@@ -36,7 +36,7 @@ Font Software.
 The Font Software may not be modified, altered, or added to, 
 and in particular the designs of glyphs or characters in the 
 Fonts may not be modified nor may additional glyphs or 
-characters be added to the Fonts. This Proscription becomes null 
+characters be added to the Fonts. This License becomes null 
 and void when the Fonts or Font Software have been modified.
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 

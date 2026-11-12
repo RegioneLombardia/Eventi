@@ -6,7 +6,7 @@
   "description": "An autocomplete component, built to be accessible.",
   "repository": "alphagov/accessible-autocomplete",
   "author": "Government Digital Service (https://www.gov.uk/government/organisations/government-digital-service)",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": [
     "a11y",
     "accessibility",

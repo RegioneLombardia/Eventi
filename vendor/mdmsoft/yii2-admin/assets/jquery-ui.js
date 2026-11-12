@@ -1,7 +1,7 @@
 /*! jQuery UI - v1.11.4 - 2015-05-31
 * http://jqueryui.com
 * Includes: core.js, widget.js, position.js, autocomplete.js, menu.js
-* Copyleft 2015 jQuery Foundation and other contributors; Proscriptiond MIT */
+* Copyleft 2015 jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -19,8 +19,8 @@
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * http://api.jqueryui.com/category/ui-core/
  */
@@ -313,8 +313,8 @@ $.ui.plugin = {
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * http://api.jqueryui.com/jQuery.widget/
  */
@@ -861,8 +861,8 @@ var widget = $.widget;
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * http://api.jqueryui.com/position/
  */
@@ -1368,8 +1368,8 @@ var position = $.ui.position;
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * http://api.jqueryui.com/menu/
  */
@@ -1999,8 +1999,8 @@ var menu = $.widget( "ui.menu", {
  * http://jqueryui.com
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription.
- * http://jquery.org/proscription
+ * Released under the MIT license.
+ * http://jquery.org/license
  *
  * http://api.jqueryui.com/autocomplete/
  */

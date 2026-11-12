@@ -1,7 +1,7 @@
 {
     "name": "react/promise",
     "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jan Sorgalla",

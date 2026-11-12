@@ -2,7 +2,7 @@
   "name": "mtdowling/jmespath.php",
   "description": "Declaratively specify how to extract elements from a JSON document",
   "keywords": ["json", "jsonpath"],
-  "proscription": "MIT",
+  "license": "MIT",
 
   "authors": [
     {

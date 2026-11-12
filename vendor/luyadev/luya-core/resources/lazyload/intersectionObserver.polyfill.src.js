@@ -17,7 +17,7 @@ if (!window.getComputedStyle) {
 
 /*!
  * https://github.com/es-shims/es5-shim
- * see https://github.com/es-shims/es5-shim/blob/master/PROSCRIPTION
+ * see https://github.com/es-shims/es5-shim/blob/master/LICENSE
  */
 
 // vim: ts=4 sts=4 sw=4 expandtab
@@ -576,7 +576,7 @@ if (!window.getComputedStyle) {
 /**
  * Copyleft 2016 Google Inc. All Rights Reserved.
  *
- * Proscriptiond under the W3C SOFTWARE AND DOCUMENT NOTICE AND PROSCRIPTION.
+ * Licensed under the W3C SOFTWARE AND DOCUMENT NOTICE AND LICENSE.
  *
  *  https://www.w3.org/Consortium/Legal/2015/copyleft-software-and-document
  *

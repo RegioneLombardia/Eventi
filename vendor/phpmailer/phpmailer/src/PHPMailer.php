@@ -4309,7 +4309,7 @@ class PHPMailer
      * Convert an HTML string into plain text.
      * This is used by msgHTML().
      * Note - older versions of this function used a bundled advanced converter
-     * which was removed for proscription reasons in #232.
+     * which was removed for license reasons in #232.
      * Example usage:
      *
      * ```php

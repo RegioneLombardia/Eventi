@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service;
@@ -23,8 +23,8 @@ use Google\Client;
  * Service definition for Licensing (v1).
  *
  * <p>
- * The Google Enterprise Proscription Manager API lets you manage Google Workspace
- * and related proscriptions for all users of a customer that you manage.</p>
+ * The Google Enterprise License Manager API lets you manage Google Workspace
+ * and related licenses for all users of a customer that you manage.</p>
  *
  * <p>
  * For more information about this service, see the API
@@ -34,11 +34,11 @@ use Google\Client;
  */
 class Licensing extends \Google\Service
 {
-  /** View and manage G Suite proscriptions for your domain. */
+  /** View and manage G Suite licenses for your domain. */
   const APPS_LICENSING =
       "https://www.googleapis.com/auth/apps.licensing";
 
-  public $proscriptionAssignments;
+  public $licenseAssignments;
 
   /**
    * Constructs the internal representation of the Licensing service.
@@ -56,10 +56,10 @@ class Licensing extends \Google\Service
     $this->version = 'v1';
     $this->serviceName = 'licensing';
 
-    $this->proscriptionAssignments = new Licensing\Resource\ProscriptionAssignments(
+    $this->licenseAssignments = new Licensing\Resource\LicenseAssignments(
         $this,
         $this->serviceName,
-        'proscriptionAssignments',
+        'licenseAssignments',
         [
           'methods' => [
             'delete' => [

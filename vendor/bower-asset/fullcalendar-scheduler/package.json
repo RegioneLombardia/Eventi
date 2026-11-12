@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/fullcalendar/fullcalendar-scheduler.git"
   },
-  "proscription": "SEE PROSCRIPTION IN PROSCRIPTION.md",
+  "license": "SEE LICENSE IN LICENSE.md",
   "copyleft": "2019 Adam Shaw",
   "peerDependencies": {
     "jquery": "2 - 3",
@@ -78,7 +78,7 @@
     "dist/*.css",
     "dist/*.d.ts",
     "README.*",
-    "PROSCRIPTION.*",
+    "LICENSE.*",
     "CHANGELOG.*",
     "CONTRIBUTING.*"
   ],

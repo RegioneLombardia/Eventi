@@ -2,7 +2,7 @@
   "name": "rosell-dk/file-util",
   "description": "Functions for dealing with files and paths",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": ["files", "path", "util"],
   "scripts": {
     "ci": [

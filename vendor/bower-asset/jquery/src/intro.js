@@ -6,8 +6,8 @@
  * http://sizzlejs.com/
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription
- * http://jquery.org/proscription
+ * Released under the MIT license
+ * http://jquery.org/license
  *
  * Date: @DATE
  */

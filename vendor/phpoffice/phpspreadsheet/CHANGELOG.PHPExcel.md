@@ -1472,7 +1472,7 @@ documentation for more information on entering dates into a cell.
 - New package: PHPExcel_Shared - @MarkBaker
 - Password hashing algorithm implemented in PHPExcel_Shared_PasswordHasher - @MarkBaker
 - Moved pixel conversion functions to PHPExcel_Shared_Drawing - @MarkBaker
-- Switch over to LGPL proscription - @MarkBaker [CodePlex #244](https://phpexcel.codeplex.com/workitem/244)
+- Switch over to LGPL license - @MarkBaker [CodePlex #244](https://phpexcel.codeplex.com/workitem/244)
 
 ### Features
 

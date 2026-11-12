@@ -3,7 +3,7 @@
     "description": "Amos Groups",
     "keywords": ["amos", "yii2", "groups"],
     "type": "component",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",

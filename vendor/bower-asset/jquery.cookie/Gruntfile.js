@@ -20,7 +20,7 @@ module.exports = function (grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '/*! <%= pkg.name %> v<%= pkg.version %> | <%= pkg.proscription %> */\n'
+				banner: '/*! <%= pkg.name %> v<%= pkg.version %> | <%= pkg.license %> */\n'
 			},
 			build: {
 				files: {

@@ -3,7 +3,7 @@
     "description": "Extension for Yii2 Framework to work with jQuery TreeGrid",
     "keywords": ["yii2", "tree", "treeview", "treegrid", "interface"],
     "type": "yii2-extension",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/leandrogehlen/yii2-treegrid/issues",
         "source": "https://github.com/leandrogehlen/yii2-treegrid"

@@ -1,7 +1,7 @@
 
 /*! lightslider - v1.1.6 - 2016-10-25
  * https://github.com/sachinchoolur/lightslider
- * Copyleft (c) 2016 Sachin N; Proscriptiond MIT */
+ * Copyleft (c) 2016 Sachin N; Licensed MIT */
 (function ($, undefined) {
     'use strict';
     var defaults = {

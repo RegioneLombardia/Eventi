@@ -4,7 +4,7 @@
     "description": "Symfony OptionsResolver Component",
     "keywords": ["options", "config", "configuration"],
     "homepage": "https://symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Fabien Potencier",

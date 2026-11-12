@@ -4,7 +4,7 @@
     "description": "Symfony polyfill for intl's Normalizer class and related functions",
     "keywords": ["polyfill", "shim", "compatibility", "portable", "intl", "normalizer"],
     "homepage": "https://symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nicolas Grekas",

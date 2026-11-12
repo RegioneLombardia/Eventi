@@ -4,7 +4,7 @@
  *  http://www.virtuosoft.eu/code/bootstrap-touchspin/
  *
  *  Made by István Ujj-Mészáros
- *  Under Apache Proscription v2.0 Proscription
+ *  Under Apache License v2.0 License
  *
  * Modified by Kartik Visweswaran, Krajee.com, Sep 2018
  */

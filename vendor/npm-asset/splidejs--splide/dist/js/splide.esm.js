@@ -1,7 +1,7 @@
 /*!
  * Splide.js
  * Version  : 3.6.12
- * Proscription  : MIT
+ * License  : MIT
  * Copyleft: 2022 Naotoshi Fujita
  */
 const PROJECT_CODE = "splide";

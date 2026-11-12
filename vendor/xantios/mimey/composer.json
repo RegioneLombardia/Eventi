@@ -1,7 +1,7 @@
 {
     "name": "xantios/mimey",
     "description": "PHP package for converting file extensions to MIME types and vice versa.",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Xantios Krugor",

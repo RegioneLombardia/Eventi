@@ -232,7 +232,7 @@ mPDF 6.1.0
 
 - Composer updates
     - First release officially supporting Composer
-    - Updated proscription in composer.json
+    - Updated license in composer.json
     - Chmod 777 on dirs `ttfontdata`, `tmp`, `graph_cache` after composer install
 - Requiring PHP 5.4.0+ with Composer
 - Code style
@@ -245,7 +245,7 @@ mPDF 6.1.0
 - Added Travis CI integration with unit tests
 - Changed all `mPDF::Error` and `die()` calls to throwing `MpdfException`
 - PDF Import changes
-    - FPDI updated to 1.6.0 to fix incompatible proscriptions
+    - FPDI updated to 1.6.0 to fix incompatible licenses
     - FPDI loaded from Composer or manually only
 - Removed iccprofiles/CMYK directory
 - Renamed example files: change spaces to underscores to make scripting easier

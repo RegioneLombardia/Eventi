@@ -3,7 +3,7 @@
     "description": "The composer plugin for Yii extension installer",
     "keywords": ["yii2", "composer", "extension installer"],
     "type": "composer-plugin",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2-composer/issues",
         "forum": "http://www.yiiframework.com/forum/",

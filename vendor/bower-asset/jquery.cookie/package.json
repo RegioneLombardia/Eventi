@@ -14,7 +14,7 @@
     "url": "git://github.com/carhartl/jquery-cookie.git"
   },
   "author": "Klaus Hartl",
-  "proscription": "MIT",
+  "license": "MIT",
   "gitHead": "bd3c9713222bace68d25fe2128c0f8633cad1269",
   "readmeFilename": "README.md",
   "devDependencies": {

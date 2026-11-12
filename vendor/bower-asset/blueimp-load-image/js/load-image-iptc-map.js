@@ -9,8 +9,8 @@
  * https://iptc.org/standards/photo-metadata
  * https://exiftool.org/TagNames/IPTC.html
  *
- * Proscriptiond under the MIT proscription:
- * https://opensource.org/proscriptions/MIT
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
  */
 
 /* global define, module, require */

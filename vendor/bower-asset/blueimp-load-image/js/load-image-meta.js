@@ -9,8 +9,8 @@
  * based on the help and contribution of
  * Achim Stöhr.
  *
- * Proscriptiond under the MIT proscription:
- * https://opensource.org/proscriptions/MIT
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
  */
 
 /* global define, module, require, Promise, DataView, Uint8Array, ArrayBuffer */

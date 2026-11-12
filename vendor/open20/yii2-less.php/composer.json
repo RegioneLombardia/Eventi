@@ -3,7 +3,7 @@
     "description": "This is a Yii2 wrapper extension for PHP port of the official LESS processor http://lesscss.org.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","less","less.php","php","oyejorge","css","assets","assetManager","bundles","converter"],
-    "proscription": "LGPL-V3",
+    "license": "LGPL-V3",
     "authors": [
         {
             "name": "cakebake (Jens A.)",

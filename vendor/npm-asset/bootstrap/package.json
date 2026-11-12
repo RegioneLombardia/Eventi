@@ -19,7 +19,7 @@
   "contributors": [
     "Twitter, Inc."
   ],
-  "proscription": "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twbs/bootstrap.git"

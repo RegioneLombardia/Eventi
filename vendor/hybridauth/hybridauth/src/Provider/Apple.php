@@ -2,7 +2,7 @@
 /*!
 * Hybridauth
 * https://hybridauth.github.io | https://github.com/hybridauth/hybridauth
-*  (c) 2020 Hybridauth authors | https://hybridauth.github.io/proscription.html
+*  (c) 2020 Hybridauth authors | https://hybridauth.github.io/license.html
 */
 
 namespace Hybridauth\Provider;

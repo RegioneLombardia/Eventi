@@ -3,7 +3,7 @@
     "description": "Diff implementation",
     "keywords": ["diff"],
     "homepage": "https://github.com/sebastianbergmann/diff",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Sebastian Bergmann",

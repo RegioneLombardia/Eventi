@@ -1,7 +1,7 @@
 {
     "name": "open20/yii2-tinymce",
     "description": "Yii2 TinyMCE widget",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "PendalF",

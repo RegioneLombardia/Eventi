@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Reseller\Resource;
@@ -90,7 +90,7 @@ class Subscriptions extends \Google\Service\Resource
     return $this->call('changePlan', [$params], Subscription::class);
   }
   /**
-   * Updates a user proscription's renewal settings. This is applicable for accounts
+   * Updates a user license's renewal settings. This is applicable for accounts
    * with annual commitment plans only. For more information, see the description
    * in [manage subscriptions](/admin-sdk/reseller/v1/how-
    * tos/manage_subscriptions#update_renewal).
@@ -118,9 +118,9 @@ class Subscriptions extends \Google\Service\Resource
     return $this->call('changeRenewalSettings', [$params], Subscription::class);
   }
   /**
-   * Updates a subscription's user proscription settings. For more information about
+   * Updates a subscription's user license settings. For more information about
    * updating an annual commitment plan or a flexible plan subscription’s
-   * proscriptions, see [Manage Subscriptions](/admin-sdk/reseller/v1/how-
+   * licenses, see [Manage Subscriptions](/admin-sdk/reseller/v1/how-
    * tos/manage_subscriptions#update_subscription_seat).
    * (subscriptions.changeSeats)
    *

@@ -2,7 +2,7 @@
   "name": "mikehaertl/php-shellcommand",
   "description": "An object oriented interface to shell commands",
   "keywords": ["shell"],
-  "proscription": "MIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "Michael Härtl",

@@ -3,7 +3,7 @@
 /**
  * Hybridauth
  * https://hybridauth.github.io | https://github.com/hybridauth/hybridauth
- * (c) 2020 Hybridauth authors | https://hybridauth.github.io/proscription.html
+ * (c) 2020 Hybridauth authors | https://hybridauth.github.io/license.html
  * 
  * Aria S.p.A.
  * OPEN 2.0
@@ -116,7 +116,7 @@ class WebEx extends OAuth2
             . $this->clientSecret)
         ];
         
-        $this->AuthorizeUrlParameters['scope'] = 'spark-compliance:memberships_read spark-admin:resource_groups_read spark-admin:broadworks_subscribers_write meeting:recordings_read spark:all analytics:read_all meeting:preferences_write spark-admin:people_write meeting:admin_recordings_read spark-admin:organizations_read spark-admin:places_read meeting:schedules_write spark-compliance:team_memberships_read spark-compliance:team_memberships_write spark-admin:devices_read spark-admin:hybrid_clusters_read spark-compliance:messages_read meeting:admin_schedule_read spark-admin:devices_write spark-admin:workspaces_write meeting:admin_schedule_write meeting:schedules_read spark-compliance:memberships_write spark-admin:broadworks_enterprises_read identity:placeonetimepassword_create spark-admin:roles_read meeting:recordings_write meeting:preferences_read spark-admin:workspaces_read spark-admin:resource_group_memberships_read spark-compliance:events_read spark-admin:resource_group_memberships_write spark-compliance:rooms_read spark-admin:call_qualities_read spark-compliance:messages_write spark-admin:broadworks_subscribers_read spark:kms meeting:admin_recordings_write spark-admin:hybrid_connectors_read audit:events_read spark-compliance:teams_read spark-admin:places_write spark-admin:proscriptions_read spark-admin:people_read';
+        $this->AuthorizeUrlParameters['scope'] = 'spark-compliance:memberships_read spark-admin:resource_groups_read spark-admin:broadworks_subscribers_write meeting:recordings_read spark:all analytics:read_all meeting:preferences_write spark-admin:people_write meeting:admin_recordings_read spark-admin:organizations_read spark-admin:places_read meeting:schedules_write spark-compliance:team_memberships_read spark-compliance:team_memberships_write spark-admin:devices_read spark-admin:hybrid_clusters_read spark-compliance:messages_read meeting:admin_schedule_read spark-admin:devices_write spark-admin:workspaces_write meeting:admin_schedule_write meeting:schedules_read spark-compliance:memberships_write spark-admin:broadworks_enterprises_read identity:placeonetimepassword_create spark-admin:roles_read meeting:recordings_write meeting:preferences_read spark-admin:workspaces_read spark-admin:resource_group_memberships_read spark-compliance:events_read spark-admin:resource_group_memberships_write spark-compliance:rooms_read spark-admin:call_qualities_read spark-compliance:messages_write spark-admin:broadworks_subscribers_read spark:kms meeting:admin_recordings_write spark-admin:hybrid_connectors_read audit:events_read spark-compliance:teams_read spark-admin:places_write spark-admin:licenses_read spark-admin:people_read';
 
         $this->AuthorizeUrlParameters['redirect_uri'] = $this->callback;
         $this->apiRequestHeaders['Content-Type'] = 'application/json';

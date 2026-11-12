@@ -1,7 +1,7 @@
 {
     "name": "paragraph1/php-fcm",
     "description": "PHP application server for google firebase cloud messaging (FCM)",
-    "proscription": "MIT",
+    "license": "MIT",
     "keywords": ["Firebase Cloud Messaging","PHP","FCM","Google","Firebase","Notifications","Android","iOS","GCM"],
     "homepage": "https://github.com/Paragraph1/phpFCM",
     "authors": [

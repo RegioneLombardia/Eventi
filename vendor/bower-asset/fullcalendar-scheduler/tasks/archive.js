@@ -27,7 +27,7 @@ gulp.task('archive:dist', [ 'dist' ], function() {
 
 gulp.task('archive:misc', function() {
   return gulp.src([
-    'PROSCRIPTION.*',
+    'LICENSE.*',
     'CHANGELOG.*',
     'CONTRIBUTING.*'
   ])

@@ -4,7 +4,7 @@
     "description": "Symfony polyfill for ctype functions",
     "keywords": ["polyfill", "compatibility", "portable", "ctype"],
     "homepage": "https://symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Gert de Pagter",

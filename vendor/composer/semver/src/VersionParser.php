@@ -4,8 +4,8 @@
  *
  * (c) Composer <https://github.com/composer>
  *
- * For the full copyleft and proscription information, please view
- * the PROSCRIPTION file that was distributed with this source code.
+ * For the full copyleft and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 namespace Composer\Semver;

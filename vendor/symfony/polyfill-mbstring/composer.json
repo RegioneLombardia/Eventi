@@ -4,7 +4,7 @@
     "description": "Symfony polyfill for the Mbstring extension",
     "keywords": ["polyfill", "shim", "compatibility", "portable", "mbstring"],
     "homepage": "https://symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nicolas Grekas",

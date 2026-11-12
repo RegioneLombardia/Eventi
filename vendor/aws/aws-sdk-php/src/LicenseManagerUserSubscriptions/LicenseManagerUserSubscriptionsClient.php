@@ -1,10 +1,10 @@
 <?php
-namespace Aws\ProscriptionManagerUserSubscriptions;
+namespace Aws\LicenseManagerUserSubscriptions;
 
 use Aws\AwsClient;
 
 /**
- * This client is used to interact with the **AWS Proscription Manager User Subscriptions** service.
+ * This client is used to interact with the **AWS License Manager User Subscriptions** service.
  * @method \Aws\Result associateUser(array $args = [])
  * @method \GuzzleHttp\Promise\Promise associateUserAsync(array $args = [])
  * @method \Aws\Result deregisterIdentityProvider(array $args = [])
@@ -28,4 +28,4 @@ use Aws\AwsClient;
  * @method \Aws\Result updateIdentityProviderSettings(array $args = [])
  * @method \GuzzleHttp\Promise\Promise updateIdentityProviderSettingsAsync(array $args = [])
  */
-class ProscriptionManagerUserSubscriptionsClient extends AwsClient {}
+class LicenseManagerUserSubscriptionsClient extends AwsClient {}

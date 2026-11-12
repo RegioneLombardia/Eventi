@@ -2,29 +2,29 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Compute;
 
-class ProscriptionsListResponse extends \Google\Collection
+class LicensesListResponse extends \Google\Collection
 {
   protected $collection_key = 'items';
   /**
    * @var string
    */
   public $id;
-  protected $itemsType = Proscription::class;
+  protected $itemsType = License::class;
   protected $itemsDataType = 'array';
   /**
    * @var string
@@ -34,7 +34,7 @@ class ProscriptionsListResponse extends \Google\Collection
    * @var string
    */
   public $selfLink;
-  protected $warningType = ProscriptionsListResponseWarning::class;
+  protected $warningType = LicensesListResponseWarning::class;
   protected $warningDataType = '';
 
   /**
@@ -52,14 +52,14 @@ class ProscriptionsListResponse extends \Google\Collection
     return $this->id;
   }
   /**
-   * @param Proscription[]
+   * @param License[]
    */
   public function setItems($items)
   {
     $this->items = $items;
   }
   /**
-   * @return Proscription[]
+   * @return License[]
    */
   public function getItems()
   {
@@ -94,14 +94,14 @@ class ProscriptionsListResponse extends \Google\Collection
     return $this->selfLink;
   }
   /**
-   * @param ProscriptionsListResponseWarning
+   * @param LicensesListResponseWarning
    */
-  public function setWarning(ProscriptionsListResponseWarning $warning)
+  public function setWarning(LicensesListResponseWarning $warning)
   {
     $this->warning = $warning;
   }
   /**
-   * @return ProscriptionsListResponseWarning
+   * @return LicensesListResponseWarning
    */
   public function getWarning()
   {
@@ -110,4 +110,4 @@ class ProscriptionsListResponse extends \Google\Collection
 }
 
 // Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProscriptionsListResponse::class, 'Google_Service_Compute_ProscriptionsListResponse');
+class_alias(LicensesListResponse::class, 'Google_Service_Compute_LicensesListResponse');

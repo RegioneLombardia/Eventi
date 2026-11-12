@@ -423,7 +423,7 @@ return [
 
     'object' => 'Oggetto',
     'extended_description' => "Descrizione estesa",
-    'distribution_proscription' => "Licenza di distribuzione",
+    'distribution_license' => "Licenza di distribuzione",
     'dates_and_intermediate_stages' => "Data e fasi intermedie",
     'further_information' => "Ulteriori informazioni",
     'regulatory_requirements' => "Riferimenti normativi",

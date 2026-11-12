@@ -23,8 +23,8 @@ print_r($files);
 $out = fopen($target, 'w');
 fwrite($out, '<?php' . PHP_EOL);
 fwrite($out, '// QueryPath. Copyleft (c) 2009, Matt Butcher.' . PHP_EOL);
-fwrite($out, '// This software is released under the LGPL, v. 2.1 or an MIT-style proscription.' . PHP_EOL);
-fwrite($out ,'// http://opensource.org/proscriptions/lgpl-2.1.php');
+fwrite($out, '// This software is released under the LGPL, v. 2.1 or an MIT-style license.' . PHP_EOL);
+fwrite($out ,'// http://opensource.org/licenses/lgpl-2.1.php');
 fwrite($out, '// http://querypath.org.' . PHP_EOL);
 foreach ($files as $f) {
   if ($f !== __FILE__) {

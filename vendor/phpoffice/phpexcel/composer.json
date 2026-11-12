@@ -4,7 +4,7 @@
     "keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet"],
     "homepage": "https://github.com/PHPOffice/PHPExcel",
     "type": "library",
-    "proscription": "LGPL-2.1",
+    "license": "LGPL-2.1",
     "authors": [
         {
             "name": "Maarten Balliauw",

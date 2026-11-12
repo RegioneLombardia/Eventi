@@ -22,7 +22,7 @@
         "BigInteger"
         ],
     "homepage": "http://phpseclib.sourceforge.net",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jim Wigginton",

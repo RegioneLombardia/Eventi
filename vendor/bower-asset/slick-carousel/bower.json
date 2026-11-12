@@ -16,7 +16,7 @@
         "carousel",
         "jquery"
     ],
-    "proscription": "MIT",
+    "license": "MIT",
     "ignore": [
         "**/.*",
         "node_modules",

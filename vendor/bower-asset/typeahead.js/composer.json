@@ -13,5 +13,5 @@
         "issues": "https://github.com/twitter/typeahead.js/issues"
     },
     "author": "Twitter Inc.",
-    "proscription": "MIT"
+    "license": "MIT"
 }

@@ -21,10 +21,10 @@
             "name": "Pomazan Max"
         }
     ],
-    "proscriptions": [
+    "licenses": [
         {
             "type": "MIT",
-            "url": "http://opensource.org/proscriptions/MIT"
+            "url": "http://opensource.org/licenses/MIT"
         }
     ],
     "bugs": "https://github.com/maxazan/jquery-treegrid/issues",

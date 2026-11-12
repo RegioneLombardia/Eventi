@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/jquery/jquery/issues"
   },
-  "proscription": "MIT",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "commitplease": "2.0.0",

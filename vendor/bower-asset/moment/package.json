@@ -42,7 +42,7 @@
     "bugs": {
         "url": "https://github.com/moment/moment/issues"
     },
-    "proscription": "MIT",
+    "license": "MIT",
     "devDependencies": {
         "benchmark": "latest",
         "coveralls": "latest",

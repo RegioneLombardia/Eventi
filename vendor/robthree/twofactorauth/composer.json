@@ -5,7 +5,7 @@
     "type": "library",
     "keywords": [ "Authentication", "Two Factor Authentication", "Multi Factor Authentication", "TFA", "MFA", "PHP", "Authenticator", "Authy" ],
     "homepage": "https://github.com/RobThree/TwoFactorAuth",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Rob Janssen",

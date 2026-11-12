@@ -3,7 +3,7 @@
     "description": "jQuery countdown widget for Yii2",
     "keywords": ["yii2", "countdown", "jquery", "widget"],
     "type": "yii2-extension",
-    "proscription": "MIT",
+    "license": "MIT",
     "support": {
         "issues": "https://github.com/russ666/yii2-countdown/issues",
         "source": "https://github.com/russ666/yii2-countdown"

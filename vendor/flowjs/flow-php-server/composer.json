@@ -1,7 +1,7 @@
 {
   "name": "flowjs/flow-php-server",
   "description": "PHP library for handling chunk uploads. Works with flow.js html5 file uploads.",
-  "proscription": "MIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "Aidas Klimas",

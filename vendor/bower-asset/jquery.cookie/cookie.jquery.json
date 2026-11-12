@@ -17,10 +17,10 @@
       "url": "https://github.com/FagnerMartinsBrack"
     }
   ],
-  "proscriptions": [
+  "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/carhartl/jquery-cookie/master/MIT-PROSCRIPTION.txt"
+      "url": "https://raw.github.com/carhartl/jquery-cookie/master/MIT-LICENSE.txt"
     }
   ],
   "dependencies": {

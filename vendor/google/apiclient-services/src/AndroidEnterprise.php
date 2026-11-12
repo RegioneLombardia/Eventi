@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service;
@@ -40,8 +40,8 @@ class AndroidEnterprise extends \Google\Service
   public $devices;
   public $enterprises;
   public $entitlements;
-  public $groupproscriptions;
-  public $groupproscriptionusers;
+  public $grouplicenses;
+  public $grouplicenseusers;
   public $installs;
   public $managedconfigurationsfordevice;
   public $managedconfigurationsforuser;
@@ -456,14 +456,14 @@ class AndroidEnterprise extends \Google\Service
           ]
         ]
     );
-    $this->groupproscriptions = new AndroidEnterprise\Resource\Groupproscriptions(
+    $this->grouplicenses = new AndroidEnterprise\Resource\Grouplicenses(
         $this,
         $this->serviceName,
-        'groupproscriptions',
+        'grouplicenses',
         [
           'methods' => [
             'get' => [
-              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupProscriptions/{groupProscriptionId}',
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}',
               'httpMethod' => 'GET',
               'parameters' => [
                 'enterpriseId' => [
@@ -471,14 +471,14 @@ class AndroidEnterprise extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'groupProscriptionId' => [
+                'groupLicenseId' => [
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,
                 ],
               ],
             ],'list' => [
-              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupProscriptions',
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses',
               'httpMethod' => 'GET',
               'parameters' => [
                 'enterpriseId' => [
@@ -491,14 +491,14 @@ class AndroidEnterprise extends \Google\Service
           ]
         ]
     );
-    $this->groupproscriptionusers = new AndroidEnterprise\Resource\Groupproscriptionusers(
+    $this->grouplicenseusers = new AndroidEnterprise\Resource\Grouplicenseusers(
         $this,
         $this->serviceName,
-        'groupproscriptionusers',
+        'grouplicenseusers',
         [
           'methods' => [
             'list' => [
-              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupProscriptions/{groupProscriptionId}/users',
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}/users',
               'httpMethod' => 'GET',
               'parameters' => [
                 'enterpriseId' => [
@@ -506,7 +506,7 @@ class AndroidEnterprise extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'groupProscriptionId' => [
+                'groupLicenseId' => [
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,

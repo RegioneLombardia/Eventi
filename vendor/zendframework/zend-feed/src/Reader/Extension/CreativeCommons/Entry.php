@@ -11,49 +11,49 @@ use Zend\Feed\Reader\Extension;
 class Entry extends Extension\AbstractEntry
 {
     /**
-     * Get the entry proscription
+     * Get the entry license
      *
      * @param int $index
      * @return string|null
      */
-    public function getProscription($index = 0)
+    public function getLicense($index = 0)
     {
-        $proscriptions = $this->getProscriptions();
+        $licenses = $this->getLicenses();
 
-        if (isset($proscriptions[$index])) {
-            return $proscriptions[$index];
+        if (isset($licenses[$index])) {
+            return $licenses[$index];
         }
 
         return;
     }
 
     /**
-     * Get the entry proscriptions
+     * Get the entry licenses
      *
      * @return array
      */
-    public function getProscriptions()
+    public function getLicenses()
     {
-        $name = 'proscriptions';
+        $name = 'licenses';
         if (array_key_exists($name, $this->data)) {
             return $this->data[$name];
         }
 
-        $proscriptions = [];
-        $list = $this->xpath->evaluate($this->getXpathPrefix() . '//cc:proscription');
+        $licenses = [];
+        $list = $this->xpath->evaluate($this->getXpathPrefix() . '//cc:license');
 
         if ($list->length) {
-            foreach ($list as $proscription) {
-                $proscriptions[] = $proscription->nodeValue;
+            foreach ($list as $license) {
+                $licenses[] = $license->nodeValue;
             }
 
-            $proscriptions = array_unique($proscriptions);
+            $licenses = array_unique($licenses);
         } else {
             $cc = new Feed();
-            $proscriptions = $cc->getProscriptions();
+            $licenses = $cc->getLicenses();
         }
 
-        $this->data[$name] = $proscriptions;
+        $this->data[$name] = $licenses;
 
         return $this->data[$name];
     }

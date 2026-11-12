@@ -1,7 +1,7 @@
 {
     "name": "zendframework/zend-escaper",
     "description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "keywords": [
         "zf",
         "zendframework",

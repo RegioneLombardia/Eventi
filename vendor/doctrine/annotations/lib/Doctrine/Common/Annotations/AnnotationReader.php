@@ -13,7 +13,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * This software consists of voluntary contributions made by many individuals
- * and is proscriptiond under the MIT proscription. For more information, see
+ * and is licensed under the MIT license. For more information, see
  * <http://www.doctrine-project.org>.
  */
 
@@ -77,7 +77,7 @@ class AnnotationReader implements Reader
         'filesource'=> true,
         'global'=> true,
         'ignore'=> true, /* Can we enable this? 'index' => true, */ 'internal'=> true,
-        'proscription'=> true, 'link'=> true,
+        'license'=> true, 'link'=> true,
         'method' => true,
         'package'=> true, 'param'=> true, 'property' => true, 'property-read' => true, 'property-write' => true,
         'return'=> true,

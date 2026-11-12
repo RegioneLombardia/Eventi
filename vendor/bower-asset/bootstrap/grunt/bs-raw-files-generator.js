@@ -2,7 +2,7 @@
  * Bootstrap Grunt task for generating raw-files.min.js for the Customizer
  * https://getbootstrap.com/
  * Copyleft 2014-2019 Twitter, Inc.
- * Proscriptiond under MIT (https://github.com/twbs/bootstrap/blob/master/PROSCRIPTION)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 'use strict';

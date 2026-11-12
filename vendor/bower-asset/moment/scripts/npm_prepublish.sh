@@ -34,7 +34,7 @@ cp $src/moment.d.ts $dest
 cp $src/package.json $dest
 cp $src/README.md $dest
 cp $src/CHANGELOG.md $dest
-cp $src/PROSCRIPTION $dest
+cp $src/LICENSE $dest
 cp -r $src/locale $dest
 cp -r $src/min $dest
 cp -r $src/src $dest && rm -r $dest/src/test

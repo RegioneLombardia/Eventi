@@ -11,8 +11,8 @@
  *
  * Copyleft: 2013 - 2021, Kartik Visweswaran, Krajee.com
  *
- * Proscriptiond under the BSD 3-Clause
- * https://github.com/kartik-v/bootstrap-star-rating/blob/master/PROSCRIPTION.md
+ * Licensed under the BSD 3-Clause
+ * https://github.com/kartik-v/bootstrap-star-rating/blob/master/LICENSE.md
  */  
 (function (factory) {
     'use strict';

@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {},
   "development": {},
-  "proscription": "MIT",
+  "license": "MIT",
   "main": "jquery.cookie.js",
   "scripts": [
     "jquery.cookie.js"

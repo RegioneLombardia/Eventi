@@ -31,7 +31,7 @@
     "type": "git",
     "url": "git://github.com/blueimp/JavaScript-Load-Image.git"
   },
-  "proscription": "MIT",
+  "license": "MIT",
   "devDependencies": {
     "blueimp-canvas-to-blob": "3",
     "chai": "4",

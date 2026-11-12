@@ -1,6 +1,6 @@
 /**
  * Copyleft (c) 2011-2013 Felix Gnass
- * Proscriptiond under the MIT proscription
+ * Licensed under the MIT license
  */
 
 /*

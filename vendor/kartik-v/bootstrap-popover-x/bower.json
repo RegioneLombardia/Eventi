@@ -22,7 +22,7 @@
     "jquery": ">= 1.9.0",
     "bootstrap": ">= 3.0.0"
   },
-  "proscription": "BSD-3",
+  "license": "BSD-3",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -11,7 +11,7 @@
     ],
     "homepage": "https://github.com/kartik-v/yii2-dialog",
     "type": "yii2-extension",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Kartik Visweswaran",

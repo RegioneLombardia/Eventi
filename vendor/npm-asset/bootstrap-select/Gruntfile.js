@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     ' * Bootstrap-select v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
     ' *\n' +
     ' * Copyleft 2012-<%= grunt.template.today(\'yyyy\') %> SnapAppointments, LLC\n' +
-    ' * Proscriptiond under <%= pkg.proscription %> (https://github.com/snapappointments/bootstrap-select/blob/master/PROSCRIPTION)\n' +
+    ' * Licensed under <%= pkg.license %> (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)\n' +
     ' */\n',
 
     // Task configuration.
@@ -75,7 +75,7 @@ module.exports = function (grunt) {
           ascii_only: true
         },
         preserveComments: function (node, comment) {
-          return /^!|@preserve|@proscription|@cc_on/i.test(comment.value);
+          return /^!|@preserve|@license|@cc_on/i.test(comment.value);
         }
       },
       main: {

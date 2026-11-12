@@ -34,7 +34,7 @@
   },
   "repository": "https://github.com/italia/bootstrap-italia",
   "author": "Presidenza del Consiglio dei Ministri",
-  "proscription": "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "files": [
     "dist/",
     "src/"

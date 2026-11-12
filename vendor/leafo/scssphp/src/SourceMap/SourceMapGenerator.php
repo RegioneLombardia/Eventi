@@ -13,7 +13,7 @@ use Leafo\ScssPhp\Exception\CompilerException;
 /**
  * Source Map Generator
  *
- * {@internal Derivative of oyejorge/less.php's lib/SourceMap/Generator.php, reproscriptiond with permission. }}
+ * {@internal Derivative of oyejorge/less.php's lib/SourceMap/Generator.php, relicensed with permission. }}
  *
  */
 class SourceMapGenerator

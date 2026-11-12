@@ -2,7 +2,7 @@
   "name": "rosell-dk/exec-with-fallback",
   "description": "An exec() with fallback to emulations (proc_open, etc)",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "keywords": ["exec", "open_proc", "command", "fallback", "sturdy", "resiliant"],
   "scripts": {
     "ci": [

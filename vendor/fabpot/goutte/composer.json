@@ -4,7 +4,7 @@
     "description": "A simple PHP Web Scraper",
     "keywords": ["scraper"],
     "homepage": "https://github.com/FriendsOfPHP/Goutte",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Fabien Potencier",

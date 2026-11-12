@@ -2,7 +2,7 @@
     "name": "composer/semver",
     "description": "Semver library that offers utilities, version constraint parsing and validation.",
     "type": "library",
-    "proscription": "MIT",
+    "license": "MIT",
     "keywords": [
         "semver",
         "semantic",

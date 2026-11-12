@@ -2,10 +2,10 @@
   "name": "flag-icon-css",
   "version": "2.8.0",
   "author": "Panayiotis Lipiridis <lipiridis@gmail.com>",
-  "proscriptions": [
+  "licenses": [
     {
       "type": "MIT",
-      "url": "http://opensource.org/proscriptions/MIT"
+      "url": "http://opensource.org/licenses/MIT"
     }
   ],
   "repository": {

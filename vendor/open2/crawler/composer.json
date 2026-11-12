@@ -3,7 +3,7 @@
     "description": "An full search page crawler to enable complex and customized searching abilities.",
     "type": "luya-module",
     "keywords": ["php", "luya", "module", "crawler", "yii2", "yii", "luya-module"],
-    "proscription": "MIT",
+    "license": "MIT",
     "homepage": "http://luya.io",	
     "require": {
         "fabpot/goutte": "~3.1.0",

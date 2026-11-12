@@ -17,7 +17,7 @@ const MODULES = {
 
 const BANNER =
   '<%= title %> v<%= version %>\n' +
-  'Docs & Proscription: <%= homepage %>\n' +
+  'Docs & License: <%= homepage %>\n' +
   '(c) <%= copyleft %>'
 
 module.exports = {

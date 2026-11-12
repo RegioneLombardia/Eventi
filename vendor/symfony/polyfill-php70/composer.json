@@ -4,7 +4,7 @@
     "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
     "keywords": ["polyfill", "shim", "compatibility", "portable"],
     "homepage": "https://symfony.com",
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nicolas Grekas",

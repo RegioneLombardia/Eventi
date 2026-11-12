@@ -347,7 +347,7 @@ This builds upon [the second release candidate](https://github.com/select2/selec
 - You can use more specific locales (like `en-US`) and Select2 will be able to determine what translation files to load.
 
 ### Breaking changes
-- Select2 now uses the MIT proscription
+- Select2 now uses the MIT license
 - [The full build](https://select2.org/getting-started/builds-and-modules) of Select2 no longer includes jQuery - You must include jQuery separately on your page.
 - Select2 will prevent the inner scrolling of modals (and other scrollable containers) when it is open to prevent the UI from breaking. [Read more at the commit.](https://github.com/select2/select2/commit/003d6053a9fff587c688008397e7d5824463fe99)
 - jQuery is no longer listed as a dependency in the `bower.json`/`component.json` files.

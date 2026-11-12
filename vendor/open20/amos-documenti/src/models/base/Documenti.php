@@ -144,7 +144,7 @@ abstract class Documenti extends ContentModel
             [ $required, 'required'],
 
 
-            [[ 'object', 'extended_description', 'distribution_proscription', 'dates_and_intermediate_stages', 'further_information', 'regulatory_requirements', 'protocol', 'help_box'], 'string'],
+            [[ 'object', 'extended_description', 'distribution_license', 'dates_and_intermediate_stages', 'further_information', 'regulatory_requirements', 'protocol', 'help_box'], 'string'],
             [['start_date', 'end_date', 'protocol_date'], 'safe'],
             [['documenti_agid_content_type_id'], 'exist', 'skipOnError' => true, 'targetClass' => DocumentiAgidContentType::className(), 'targetAttribute' => ['documenti_agid_content_type_id' => 'id']],
             [['documenti_agid_type_id'], 'exist', 'skipOnError' => true, 'targetClass' => DocumentiAgidType::className(), 'targetAttribute' => ['documenti_agid_type_id' => 'id']],
@@ -190,7 +190,7 @@ abstract class Documenti extends ContentModel
 
             'object' => AmosDocumenti::t('amosdocumenti', 'object'), 
             'extended_description' => AmosDocumenti::t('amosdocumenti', 'extended_description'), 
-            'distribution_proscription' => AmosDocumenti::t('amosdocumenti', 'distribution_proscription'), 
+            'distribution_license' => AmosDocumenti::t('amosdocumenti', 'distribution_license'), 
             'dates_and_intermediate_stages' => AmosDocumenti::t('amosdocumenti', 'dates_and_intermediate_stages'), 
             'further_information' => AmosDocumenti::t('amosdocumenti', 'further_information'), 
             'regulatory_requirements' => AmosDocumenti::t('amosdocumenti', 'regulatory_requirements'), 

@@ -3,7 +3,7 @@
 	"description" : "Authsystem with username and password for a given cms page area.",
 	"type" : "cms-module",
 	"keywords" : ["cms", "auth"],
-	"proscription": "MIT",
+	"license": "MIT",
 	"require-dev" : {
 	    "luyadev/luya-testsuite" : "^1.0"
 	},

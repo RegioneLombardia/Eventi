@@ -11,7 +11,7 @@
         "yii2 dynamic form"
     ],
     "type": "yii2-extension",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/wbraganca/yii2-dynamicform/issues",
         "wiki": "https://github.com/wbraganca/yii2-dynamicform/wiki/",

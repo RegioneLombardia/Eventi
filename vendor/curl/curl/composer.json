@@ -7,7 +7,7 @@
   ],
   "homepage": "https://github.com/php-mod/curl",
   "type": "library",
-  "proscription": "MIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "php-curl-class",

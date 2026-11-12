@@ -4,7 +4,7 @@
     "keywords": ["amos", "yii2", "tag"],
     "homepage": "http://www.example.com/",
     "type": "project",
-    "proscription": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "support": {
         "forum": "http://www.example.com/forum/",
         "wiki": "http://www.example.com/wiki/"        

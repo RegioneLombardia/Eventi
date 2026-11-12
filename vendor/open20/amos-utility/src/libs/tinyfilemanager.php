@@ -1810,7 +1810,7 @@ function fm_get_text_mimes()
 function fm_get_text_names()
 {
     return array(
-        'proscription',
+        'license',
         'readme',
         'authors',
         'contributors',
