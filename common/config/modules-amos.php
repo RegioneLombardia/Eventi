@@ -694,11 +694,11 @@ $modules['webmeeting'] = [
     'providers' => [
         'WebEx' => [
             // Location where to redirect users once they authenticate with a provider
-            'callback' => 'https://events-pre-prod.stage.demotestwip.it/webmeeting/web-meeting/auth',
+            'callback' => 'https://YOUR_DOMAIN/webmeeting/web-meeting/auth',
             'enabled' => true, // Optional: indicates whether to enable or disable WebEx adapter. Defaults to false
             'keys' => [
-                'key' => 'C2cc1cfaa0098ac25bdee4c2b864273352d5ea69a4db42b11966862fa1967e118',
-                'secret' => 'aa0448e7c6fc5556b9c70f9c9893876ba304b18cd053ce63a5f863a9864817e9',
+                'key' => 'WEBEX_CLIENT_ID',
+                'secret' => 'WEBEX_CLIENT_SECRET',
             ]
         ],
     ]
